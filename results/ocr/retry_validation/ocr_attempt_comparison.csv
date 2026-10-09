@@ -1,0 +1,7 @@
+file_name,label,flip_attempted,selected_orientation,original_text,original_english_word_ratio,original_mean_confidence,flipped_text,flipped_english_word_ratio,flipped_mean_confidence,extracted_text,english_word_ratio,mean_confidence
+0351a.jpg,alcohol,True,flipped,vhpq zzonnive  Spurein ? Iinuojeib eeim  'rnoq,0.0,0.2623187112339897,"'party , guinness  discount nightlife  Dontt miss =",0.8333333333333334,0.665495062788653,"'party , guinness  discount nightlife  Dontt miss =",0.8333333333333334,0.665495062788653
+0256na.jpg,non_alcohol,True,original,re8v,0.0,0.1235046610236167,667,0.0,0.0500826409875537,re8v,0.0,0.1235046610236167
+0409na.jpg,non_alcohol,True,flipped,slim ~ f'noq 2im 16d9119291 9119291 -,0.25,0.641360236670198,"reservebar , Don't miss milk reserve",0.8,0.995125071618662,"reservebar , Don't miss milk reserve",0.8,0.995125071618662
+0148na.jpg,non_alcohol,False,original,hot chocolate,1.0,0.9993407004915866,,,,hot chocolate,1.0,0.9993407004915866
+0110a.jpg,alcohol,True,original,,0.0,,,0.0,,,0.0,
+0006a.jpg,alcohol,True,original,Tevent nSenve budwelser-favoR;,0.25,0.3260654178292141,Hovsl z9el9Wbud p1s2an novant,0.0,0.0221258050845443,Tevent nSenve budwelser-favoR;,0.25,0.3260654178292141
