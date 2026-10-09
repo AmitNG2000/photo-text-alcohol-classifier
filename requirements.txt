@@ -10,3 +10,8 @@ torch==2.6.0+cpu
 torchvision==0.21.0+cpu
 tqdm==4.67.1
 jupyter==1.1.1
+scipy==1.15.3
+scikit-learn==1.6.1
+sentence-transformers==3.4.1
+transformers==4.49.0
+joblib==1.6.0

@@ -1,8 +1,9 @@
 # Photo Text Alcohol Classifier
 
 Initial exploration for the DV DS CV + NLP assignment. The notebook covers
-image loading, basic statistics, and English OCR extraction using EasyOCR on
-the CPU. Labels come from the `images/alcohol/` and `images/non_alcohol/` folders.
+image loading, basic statistics, English OCR extraction using EasyOCR, and
+TF-IDF and MiniLM text embeddings on the CPU. Labels come from the
+`images/alcohol/` and `images/non_alcohol/` folders.
 
 ## Run the notebook
 
@@ -25,7 +26,15 @@ shows a progress bar.
 
 Tables, extracted text (`ocr_text.csv`), and figures are saved in `results/`.
 OCR confidence and text coverage are descriptive statistics, not accuracy
-measurements. This initial notebook stops after text extraction.
+measurements. The notebook stops after embedding exploration.
+
+The embedding section consumes `ocr_results` from the OCR cells. It saves sparse
+character TF-IDF features, the fitted vectorizer, dense MiniLM vectors, image
+row mappings, summary tables, and plots under `results/embeddings/` (or
+`results_test/embeddings/` when `test_mode=True`). TF-IDF outputs go in the
+`tfidf/` subfolder and MiniLM outputs go in `bert/`; shared image metadata stays
+in the parent embeddings folder. MiniLM downloads its pinned
+pretrained model into `.cache/sentence_transformers/` on first use.
 
 The saved `ocr_smoke_test*` outputs cover six validation images (three from each
 class). Running the notebook produces OCR results for the entire dataset.
