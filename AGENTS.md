@@ -21,6 +21,21 @@ The plots should have large text and number should to be formatted with :, .
 
 Keep the code easy to understand, modify, and reuse.
 
+In Jupyter Notebook (`.ipynb`) files, cells should follow a consistent three-step structure:
+
+1. **Function Definition** – Define a function that performs a specific task.
+2. **Function Call** – Call the function to execute the task.
+3. **Results and Visualization** – Display the results, including relevant statistics, tables, and plots.
+
+**Example:**
+- **Cell 1:** Define a function to load the dataset.
+- **Cell 2:** Call the function to load the data.
+- **Cell 3:** Display descriptive statistics and visualizations of the loaded data.
+
+Repeat this structure for each logical step in the notebook to ensure clarity, readability, and consistency.
+
+Use Markdown headings at different levels (#, ##, ###, etc.) to create a clear, logical, and hierarchical structure throughout the Jupyter Notebook (.ipynb).
+
 When downloading a new package, add it to `requirements.txt` with its version.
 
 For each function make sure to have google-style description.

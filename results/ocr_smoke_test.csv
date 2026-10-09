@@ -1,7 +1,0 @@
-file_name,image_path,label,width,height,format,mode,file_size_kb,extracted_text,word_count,text_box_count,mean_confidence
-0000a.jpg,images/alcohol/0000a.jpg,alcohol,640,427,JPEG,RGB,149.3525390625,Donlmisslimitededitionnighilifebourbonevent,1,1,0.49187654286427945
-0001a.jpg,images/alcohol/0001a.jpg,alcohol,314,500,JPEG,RGB,89.2265625,chAnpa 013,2,1,0.3135703125626451
-0003a.jpg,images/alcohol/0003a.jpg,alcohol,640,427,JPEG,RGB,201.1279296875,Dont Ims9 0ob now Te3TEJEE3Z7E pemim,6,6,0.35343220283502275
-0000na.jpg,images/non_alcohol/0000na.jpg,non_alcohol,640,618,JPEG,RGB,217.248046875,) { 3 Dontmiescheclumiededitoncannab 3cpeca],5,4,0.5375045193946701
-0002na.jpg,images/non_alcohol/0002na.jpg,non_alcohol,640,480,JPEG,RGB,103.087890625,5 Y flAvor/ LaSTe nighTlite nsey,6,6,0.38075870413823054
-0005na.jpg,images/non_alcohol/0005na.jpg,non_alcohol,427,640,JPEG,RGB,85.1142578125,benoqal 99ii05,2,1,0.19622226140786073
