@@ -1,0 +1,3 @@
+label,image_count,images_with_text,mean_token_count,truncated_texts
+alcohol,550,535,11.456363636363637,0
+non_alcohol,550,540,11.858181818181817,0

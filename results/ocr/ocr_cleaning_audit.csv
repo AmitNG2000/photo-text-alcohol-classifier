@@ -1,0 +1,5 @@
+check,image_count
+Total images,1100
+Empty OCR,25
+Nonempty OCR with mean confidence < 0.40,403
+Texts containing alphabetic runs of 20+ characters,23
