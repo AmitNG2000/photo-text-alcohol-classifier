@@ -1,6 +1,9 @@
-# Project Folder
+# Project
 images_test
 results_test
+*.joblib
+*.npy
+*.npz
 
 
 
