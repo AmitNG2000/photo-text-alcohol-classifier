@@ -1,159 +1,412 @@
 # Photo Text Alcohol Classifier
 
-Initial exploration for the DV DS CV + NLP assignment. The notebook covers
-image loading, basic statistics, English OCR extraction using EasyOCR, and
-TF-IDF, MiniLM, and GloVe text embeddings on the CPU. Labels come from the
-`images/alcohol/` and `images/non_alcohol/` folders.
+Classify images as `alcohol` or `non_alcohol` based on the text they contain.
+The pipeline extracts text from images, extract text using OCR, clean text, converts text into
+numeric features, and trains classifiers. All models run on the CPU.
 
-## Run the notebook
+This project follows the instactions in [DV DS CV + NLP assignment](<DV DS home assignment - CV+NLP.pdf>).
+The main code is in [image_text_alcohol_classification.ipynb](src/image_text_alcohol_classification.ipynb).  
+[alcohol_lists.py](src/alcohol_lists.py) supplies alcohol brands and drinks vocabulary for
+OCR scoring and cleaning.  
 
-Use Python 3.10 on Linux:
+## How to run
+
+Use **Python 3.10 on Linux**. From the repository root, create an environment,
+install the pinned dependencies, and open the notebook:
 
 ```bash
-python3 -m venv .venv
+python3.10 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-jupyter notebook data_exploration_ocr.ipynb
+python -m notebook src/image_text_alcohol_classification.ipynb
 ```
 
-Select the virtual environment's Python kernel and run the cells from top to
-bottom, starting in the repository root. The requirements include CPU-only
-PyTorch wheels from the official PyTorch package index.
+Select the environment's Python kernel and run the cells from top to bottom.
+The notebook resolves paths when its working directory is either the repository
+root or `src/`. The requirements include CPU-only PyTorch packages.
 
-The OCR section applies EXIF orientation and keeps native-size color OCR as its
-baseline. Enhanced retries use grayscale with English EasyOCR on the CPU. It orders detected boxes by
-line and horizontal position and saves the selected box coordinates as JSON.
-Coordinates refer to the selected preprocessing variant. Confidence is weighted
-by each box's non-space character count, so short incidental detections do not
-contribute as much as the main text.
+Place the dataset in these folders, using the exact lowercase names:
 
-If vocabulary coverage or confidence is below 0.80, OCR also tries a horizontal
-mirror. Selection combines 45% confidence with 55% dictionary coverage. A retry
-must improve this score by more than 0.05 while retaining at least 80% of the
-recognized words. A mirror also needs positive dictionary coverage at least as
-high as the current result. This protects readable original text from slightly more
-confident mirrored gibberish while retaining support for genuinely mirrored text.
-An empty result accepts newly detected text only when its quality score is at
-least 0.20, limiting faint-noise false positives.
+```text
+images/
+├── alcohol/
+│   └── <image files>
+└── non_alcohol/
+    └── <image files>
+```
 
-If the winner remains below either threshold, OCR tries contrast enhancement
-with 2× detection magnification. Tilted detected boxes trigger an image deskew
-retry using their median angle. Empty detections trigger -30° and +30° image
-rotation retries. Enhanced recognition also checks 180° text-box rotations. Enhancements
-must pass the same selection rule; they do not automatically replace native OCR.
+The loader reads JPG, JPEG, PNG, BMP, TIF, and TIFF files directly inside each
+class folder. The folder name is the training label.
 
-Retry scoring and cleaning share CMUdict, the alcohol vocabulary from
-`alcohol_lists.py`, and additional non-alcohol beverage words. Vocabulary coverage
-and confidence describe extraction behavior; neither measures transcription
-accuracy.
+The first notebook cell controls which dataset runs:
 
-The notebook reuses `ocr/ocr_text.csv` only when a SHA-256 fingerprint matches
-image contents, paths, labels, vocabulary, pipeline version, and OCR settings.
-Older CSVs refresh automatically. Change `OCR_PIPELINE_VERSION` when changing
-OCR logic rather than its configuration. The first extraction downloads models
-into `.cache/easyocr/`; later extractions reuse them. No additional packages are
-needed for the OCR improvements.
+| Setting | Input folder | Output folder |
+| --- | --- | --- |
+| `test_mode = False` (default) | `images/` | `results/` |
+| `test_mode = True` | `test/images_test/` | `test/results_test/` |
 
-Dataset metadata and figures are saved under `results/data/`. OCR text,
-summaries, retry diagnostics, and plots are saved under `results/ocr/`. Test mode
-uses the same subfolders inside `results_test/`. The CSV preserves original,
-mirrored, and enhanced attempt texts and scores, alongside the selected
-orientation, preprocessing, and quality score.
+Test mode requires the same `alcohol/` and `non_alcohol/` subfolders. It checks
+the workflow with a smaller dataset. 
 
-The Clean Text section preserves `extracted_text` and adds `cleaned_text`.
-Cleaning applies Unicode NFKC, lowercase, apostrophe normalization, and single
-spaces. Recognized words, punctuation, and standalone numbers are preserved.
-Unknown tokens are compared with nearby vocabulary words using OCR-aware edit
-distance. Ordinary edits cost 1; common character confusions cost 0.25. Digit
-mappings can have several alternatives, such as `1 → i/l` and `8 → b/s`.
-A matching neighboring word in a common or beverage phrase adds 0.15 to a
-candidate's score. Corrections require similarity of at least 0.90 and a lead of
-at least 0.03 over the next candidate. Weak or ambiguous corrections stay unchanged.
+Internet access is needed for package installation and the first downloads of
+EasyOCR, MiniLM, and GloVe weights. Later runs reuse the model caches in `.cache/`.
 
-Long unknown tokens can also recover spaces using common text and beverage
-words. Segmentation requires at least three recognized words covering 75% of
-a token of at least 16 characters. It preserves every original character and
-does not guess missing letters.
+### Standalone inference
 
-Cleaning runs whenever its cells execute, independently of the OCR cache. It
-saves `ocr_text_cleaned.csv`, cleaning summaries, correction counts, and a plot.
-Changed-image totals include normalization; a separate count tracks spelling or
-spacing changes. Correction counts include both replacements and segmented
-tokens. Rerun downstream embedding and classification cells after changing OCR
-or cleaning.
+The notebook's final step saves the winning classifier to `results/best_cls.joblib`
+and its fitted text representation to `results/best_vectorizer.joblib`.
+Use these artifacts to classify a directory of unlabeled images on the CPU:
 
-The OCR improvements were checked on 11 images, including eight manually
-transcribed main captions. Results are saved in
-`results/ocr/ocr_improvement_validation.csv`, with per-image character and word
-error rates, a summary CSV, and a comparison plot. These selected examples are
-regression checks, not a dataset-wide accuracy estimate. The validation files
-are separate from the full-dataset CSVs; the next OCR run refreshes the older
-full-dataset cache automatically.
+```bash
+python src/inference.py /path/to/images --output results/results.csv
+```
 
-The embedding section consumes `cleaned_text` from the cleaning cells. Its saved
-metadata contains both original and cleaned text, with `has_text` based on the
-cleaned text. Rerun embedding and classification cells to regenerate their
-outputs after cleaning changes. The embedding section saves sparse word and
-character TF-IDF features, fitted vectorizers, dense MiniLM and GloVe vectors, image
-row mappings, summary tables, and plots under `results/embeddings/` (or
-`results_test/embeddings/` when `test_mode=True`). Word TF-IDF outputs go in
-`word_tfidf/`, character TF-IDF outputs go in `tfidf/`, and MiniLM outputs go in
-`bert/`; shared image metadata stays
-in the parent embeddings folder. MiniLM downloads its pinned
-pretrained model into `.cache/sentence_transformers/` on first use.
-GloVe uses `gensim.downloader` with `api.load("glove-wiki-gigaword-100")`.
-Its download cache defaults to `.cache/glove/` and respects an existing
-`GENSIM_DATA_DIR`. It averages known word vectors per image and L2-normalizes
-nonzero rows; empty text or text without known words stays zero. Vectors,
-coverage summaries, vocabulary tables, and plots are saved in `glove/`.
-The silhouette comparison and all four classifiers include these vectors.
+The script reads supported image files directly inside the input directory,
+applies the same OCR and cleaning as the notebook, and predicts without training.
+It writes `file_name,prediction`, using `alcohol` or `non_alcohol` for each image.
+Use `--model-dir /path/to/artifacts` to load artifacts from another directory,
+or `--output results/new_predictions.csv` to save a separate prediction file.
+An empty directory produces a CSV containing only the column headers.
 
-Combined word + character TF-IDF outputs go in `combined_tfidf/`. Its matrix
-concatenates word columns first and character columns second, then L2-normalizes
-each row. Both nonzero components contribute equally; an empty component stays
-zero. The representation has up to 10,000 features, with 5,000 per component.
-It saves both component vectorizers, a sparse matrix, feature and summary tables,
-statistics plots, and PCA outputs in the same style as the separate TF-IDF types.
+## Pipeline
 
-Word TF-IDF uses unigrams and bigrams from cleaned text, with the same
-5,000-feature limit, sublinear term frequency, and L2 normalization as character
-TF-IDF. Its default tokenizer keeps tokens of at least two word characters and
-retains stop words and numbers. Both TF-IDF sections include feature statistics,
-top-feature plots, and 2D PCA plots colored by label, with coordinates and
-explained-variance statistics saved alongside them. Shared PCA helpers live in
-Text Embedding's Utils subsection.
+### Pipeline overview
 
-Classification compares character TF-IDF, word TF-IDF, combined word + character
-TF-IDF, MiniLM, and GloVe using Logistic Regression, XGBoost, Random Forest, and MLPClassifier:
-twenty runs on one shared stratified 70/30 train/test split. Both TF-IDF vectorizers are refitted on training text only;
-held-out text is transformed with those fitted vectorizers. Combined features
-are built from these same training-fitted components and normalized per row,
-with word columns first in both training and test data. MiniLM and GloVe vectors
-come from fixed pretrained models. Each classifier runs once per embedding type.
-Reports include
-per-class precision, recall, F1, support, accuracy, ROC AUC, and trapezoidal
-PR AUC, using alcohol as the positive class.
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'fontSize': '20px', 'fontFamily': 'Arial'}, 'flowchart': {'htmlLabels': true, 'nodeSpacing': 50, 'rankSpacing': 65}}}%%
 
-Classification reports, models, predictions, curves, and the combined
-comparison are saved under `RESULTS_DIR/classification/`, with separate
-`tfidf/` (character), `word_tfidf/` (word), `combined_tfidf/` (word + character),
-`bert/` (MiniLM), and `glove/` (GloVe) subfolders for each
-classifier. Both training-fitted TF-IDF vectorizers and split metadata are saved
-in the classification folder, including a combined-vectorizer dictionary with
-`word` and `character` keys. Restore combined features by transforming with
-those vectorizers, concatenating word first, and applying L2 normalization.
-Word TF-IDF uses the same feature settings as its
-embedding section; classification does not use the exploratory full-data matrix.
-The 20-image test dataset provides only six held-out images, so its metrics
-serve as workflow checks rather than reliable performance estimates.
+flowchart LR
+    A["<b>Data</b><br/>Load and inspect images<br/>70% train / 30% test split"]
+    --> B["<b>Text Extraction</b><br/>English EasyOCR<br/>Normalize and correct OCR errors"]
+    --> C["<b>Text Embedding</b><br/>1. Word TF-IDF<br/>2. Character TF-IDF<br/>3. Word + Character TF-IDF<br/>4. MiniLM<br/>5. GloVe"]
+    --> D["<b>Classification</b><br/>1. Logistic Regression<br/>2. XGBoost<br/>3. Random Forest<br/>4. MLPClassifier"]
 
-The saved `ocr_smoke_test*` outputs cover six validation images (three from each
-class). Running the notebook produces OCR results for the entire dataset.
+    classDef data fill:#DBEAFE,stroke:#2563EB,stroke-width:2px,color:#1E3A8A
+    classDef ocr fill:#D1FAE5,stroke:#059669,stroke-width:2px,color:#065F46
+    classDef embedding fill:#EDE9FE,stroke:#7C3AED,stroke-width:2px,color:#4C1D95
+    classDef classification fill:#FFEDD5,stroke:#EA580C,stroke-width:2px,color:#9A3412
 
-MLPClassifier uses a 64-unit ReLU hidden layer with Adam and fixed settings. It
-estimates performance with five stratified folds on the training partition,
-refitting TF-IDF inside every fold. Pretrained MiniLM and GloVe vectors stay
-fixed. Per-fold scores and mean/std summaries are saved under
-`RESULTS_DIR/classification/mlp/`, along with final held-out reports, models,
-predictions, and curves. The performance comparison includes all twenty
-classifier/embedding combinations; MLP rows also include CV estimates.
+    class A data
+    class B ocr
+    class C embedding
+    class D classification
+
+    linkStyle default stroke:#64748B,stroke-width:2.5px
+```
+
+### Step 1: Load Data
+
+Creates one row per image with its filename, path, label,
+dimensions, format, color mode, and file size. Dimensions account for the
+image's EXIF orientation metadata.
+
+Create one stratified **70% train / 30% test** split with `random_state=42`
+before OCR and embeddings. Use the same split throughout: fit TF-IDF and train
+classifiers on the 70%, then evaluate on the 30%. No cross-validation.
+
+### Step 2: Text Extraction
+
+#### OCR
+
+Use one English EasyOCR reader on the CPU, with recognition batch size 8.
+Start with the EXIF-oriented, native-size color image and join detected text
+in reading order.
+
+Retry only while **both character-weighted confidence and vocabulary coverage
+are below `0.80`**. Coverage uses CMUdict plus beverage and brand terms.
+Try a horizontal mirror, then contrast-enhanced grayscale with **1.5× detection
+magnification**. If both signals remain low, deskew tilted text or try −30° and
++30° rotations for empty text. Enhanced attempts also test 180° text-box rotation.
+
+```mermaid
+flowchart TD
+    A[Native color OCR] --> B{Confidence and vocabulary coverage both below 0.80?}
+    B -- No --> G[Keep selected text]
+    B -- Yes --> C[Try horizontal mirror and compare]
+    C --> D{Selected text still has both signals below 0.80?}
+    D -- No --> G
+    D -- Yes --> E[Try contrast enhancement and 1.5x magnification]
+    E --> F{Selected text still has both signals below 0.80?}
+    F -- No --> G
+    F -- Yes --> H[Try deskewing or empty-text rotations]
+    H --> I{Another rotation and both signals still low?}
+    I -- Yes --> H
+    I -- No --> G
+```
+
+Accept a retry only when its weighted confidence/coverage score improves by
+more than `0.05` and it retains at least 80% of recognized words. 
+Save selected text, boxes, and attempt diagnostics to `results/ocr/ocr_text.csv`.  
+Reuse cached results when images, vocabulary, settings, and pipeline version match.
+
+#### Text Cleaning
+
+Preserve `extracted_text` and add `cleaned_text` for the downstream models:
+
+1. Normalize Unicode with NFKC, lowercase text, standardize apostrophes, then
+   collapse repeated whitespace and trim leading/trailing spaces.
+2. Correct unknown word tokens against the English and beverage vocabulary.
+   Use weighted edit distance, with lower costs for OCR confusions such as
+   `0`/`o` and `i`/`l`. 
+
+
+Save `ocr_text_cleaned.csv`, correction counts, summaries, and a correction plot
+in `results/ocr/`. 
+Cleaning runs whenever its cells execute, even when OCR is cached. 
+
+### Step 3: Text Embedding
+
+An embedding represents each image's cleaned text as a numeric vector that a
+classifier can use. Compare five representations to cover exact words, partial
+words, and semantic meaning.
+
+#### Prepare Text
+
+Use `cleaned_text` as source. 
+
+#### TF-IDF
+
+Each image's cleaned OCR text is one **document**, used to classify the image
+as `alcohol` or `non_alcohol` **topic**. TF-IDF weights terms by their frequency in that
+document and rarity across documents. **Word TF-IDF** captures individual words
+and two-word phrases, but OCR spelling errors
+can break these matches. **Character TF-IDF** captures 3–5-character fragments
+within word boundaries, retaining useful parts of misspelled words.
+**Word + Character TF-IDF** combines both feature sets so classifiers can use
+intact words and phrases alongside fragments that survive OCR errors.
+Save artifacts in `results/embeddings/tfidf_<type>/`.
+
+#### MiniLM
+
+Use the pretrained `sentence-transformers/all-MiniLM-L6-v2` model at a pinned
+revision to produce 384-dimensional sentence vectors on the CPU. This adds a
+representation of meaning beyond exact term matches. Normalize nonempty
+vectors and record texts that exceed the model's token limit and are truncated.
+Save artifacts in `results/embeddings/bert/`.
+
+#### GloVe
+
+Use pretrained `glove-wiki-gigaword-100` word vectors. Average the known words
+in each image's text into a 100-dimensional vector and L2-normalize it. Skip
+unknown words, text with no known words stays zero. Record vocabulary coverage
+to show how much text contributes. Averaging loses word order. 
+Save artifacts in `results/embeddings/glove/`.
+
+#### Compare Embeddings
+
+Use two-dimensional PCA plots to inspect each representation. 
+PCA reduces the vectors to two coordinates for visualization, classification uses the original features.
+
+Compare cosine silhouette scores using the same images across all five methods,
+excluding any image with a zero vector in any method. The score describes how
+well the two labeled classes separate in feature space to test embbedind proformance. 
+
+### Classification
+
+#### Preparations
+
+Reuse the shared split and existing embeddings without refitting vectorizers
+or encoding text again. Encode `alcohol` as `1` and `non_alcohol` as `0`.
+
+
+#### Logistic Regression
+
+Train a linear baseline with up to 1,000 iterations. 
+
+#### XGBoost
+
+Train 200 sequential boosted trees with maximum depth 3 and learning rate `0.05`.
+
+
+#### Random Forest
+
+Train 200 trees and combine their predictions. Require at least two training
+images per leaf to limit very specific rules.
+
+#### MLPClassifier
+
+Train a neural network with one 64-unit ReLU hidden layer, Adam optimization,
+and L2 regularization. Train each classifier once per embedding on the shared
+training split and evaluate on the shared test split, without cross-validation.
+
+#### Performance Comparison
+
+Evaluate every classifier with every embedding: **20 combinations**. The code
+computes the following metrics; measured values appear in the Results section.
+
+| Metric | What it assesses |
+| --- | --- |
+| Accuracy | Fraction of all test images classified correctly. |
+| Alcohol precision | How often an alcohol prediction is correct. |
+| Alcohol recall | How many actual alcohol images are detected. |
+| Alcohol F1 | Balance between alcohol precision and recall. |
+| Macro F1 | Average F1 across both classes, with equal class weight. |
+| ROC AUC | Ranking quality across true-positive and false-positive rates. |
+| PR AUC | Area under the precision–recall curve, computed using trapezoids. |
+
+Also save per-class precision, recall, F1, and support (the number of examples).
+AUC metrics use alcohol probabilities. All metrics use the same held-out test
+images.
+
+Each classifier has a folder under `results/classification/`, containing
+per-embedding reports, test predictions, fitted models, and ROC/PR curves. The
+combined table is `performance_comparison.csv`. 
+
+#### Output
+
+Select the classifier and embedding with the highest test PR AUC, breaking ties
+by ROC AUC. Use that trained model to predict every input image, without
+refitting it. TF-IDF inputs use its training-fitted vectorizers; combined
+features retain word columns first and character columns second. Reuse the
+existing embedding matrices for this export.
+
+Write `results/results.csv` with the assignment's required columns:
+`file_name,prediction`. Each prediction is `alcohol` or `non_alcohol`, matching
+the format in [example_results.csv](results/example_results.csv). 
+
+Also save the selected model as `results/best_cls.joblib` and its text
+representation as `results/best_vectorizer.joblib` for standalone inference.
+
+
+## Results
+
+The saved run uses **1,100 images**, evenly split between the two classes:
+**770 training / 330 test**, with 165 images per class in the test set.
+OCR found text in **1,083 images (98.45%)**; cleaning corrected 181 tokens.
+
+### Embedding Results
+
+Silhouette scores use the same **979 images with nonzero vectors in every
+method**. Higher scores mean better class separation; values near zero indicate
+overlap. PCA variance is the percentage retained by the first two components.
+
+| Embedding | Dimensions | Cosine silhouette | PCA variance (PC1 + PC2) | PCA plot |
+| --- | ---: | ---: | ---: | --- |
+| MiniLM | 384 | 0.0174 | 10.47% | [View](results/embeddings/bert/bert_pca.png) |
+| GloVe | 100 | 0.0156 | 27.38% | [View](results/embeddings/glove/glove_pca.png) |
+| Character TF-IDF | 5,000 | 0.0128 | 3.58% | [View](results/embeddings/tfidf/tfidf_pca.png) |
+| Word + Character TF-IDF | 8,861 | 0.0092 | 3.13% | [View](results/embeddings/combined_tfidf/combined_tfidf_pca.png) |
+| Word TF-IDF | 3,861 | 0.0057 | 3.31% | [View](results/embeddings/word_tfidf/word_tfidf_pca.png) |
+
+![Character TF-IDF PCA projection by class](results/embeddings/tfidf/tfidf_pca.png)
+
+The classes overlap in this projection, which retains only **3.58%** of the
+variance. These are exploratory results across the dataset; classifiers use
+the full embedding vectors, and their test scores below measure prediction quality.
+
+### Classification Results
+
+The table shows each classifier's best embedding by test PR AUC—all four chose
+**character TF-IDF**. Precision, recall, and F1 refer to the alcohol class.
+
+| Classifier | Accuracy | Precision | Recall | F1 | Macro F1 | ROC AUC | PR AUC |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| MLPClassifier | 88.48% | 0.880 | 0.891 | 0.886 | 0.885 | 0.9717 | 0.9735 |
+| Logistic Regression | 87.58% | 0.878 | 0.873 | 0.875 | 0.876 | 0.9708 | 0.9729 |
+| Random Forest | 82.42% | 0.820 | 0.830 | 0.825 | 0.824 | 0.9361 | 0.9398 |
+| XGBoost | 84.55% | 0.777 | 0.970 | 0.863 | 0.843 | 0.9233 | 0.9123 |
+
+![Test ROC AUC and PR AUC for all 20 classifier and embedding combinations](results/classification/performance_comparison.png)
+
+**MLP with character TF-IDF** leads by PR AUC, with logistic regression close
+behind. XGBoost detects more alcohol images but makes more false-positive
+predictions. MiniLM has the highest silhouette score, while character TF-IDF
+performs best in classification.
+
+See [all 20 test results](results/classification/performance_comparison.csv)
+and [predictions for all 1,100 images](results/results.csv). The test split also
+selects the winning model, so its scores are not a separate final evaluation.
+
+## Discussion
+
+### Overview
+
+This task combines several challenges: unclear photographs, inconsistent text
+orientation, OCR errors, and short text fragments. Each stage affects the next,
+so classification depends on both readable text and a suitable representation.
+
+The workflow addresses these issues through selective OCR retries,
+vocabulary-based text cleaning, and comparison of five embeddings with four
+classifiers. One shared stratified **70/30 split** keeps training and evaluation
+consistent.
+
+### OCR
+
+Some photographs contain blurred, low-contrast, rotated, or mirrored text.
+Mirror retries supplied the selected transcription for **170 images**, showing
+the value of checking orientation. OCR text was evaluated manually and through
+Codex-assisted review using **GPT-6.1 Sol**. These qualitative checks help identify
+errors; OCR confidence and dictionary coverage remain heuristics rather than
+measured transcription accuracy. Misspelled brands and missing words can remove
+useful classification signals, and **17 images** still had no extracted text.
+
+To improve extraction, the pipeline tries mirroring, contrast enhancement,
+increased detection magnification, and deskewing when confidence and vocabulary
+coverage are both low. It keeps retries only when their quality score improves.
+Text cleaning normalizes case and spacing and corrects unknown words using
+an English and beverage vocabulary. **Topic-specific knowledge** comes from the
+alcohol brand and drink lists in [alcohol_lists.py](src/alcohol_lists.py).
+These terms support vocabulary-based OCR scoring and spelling correction,
+helping preserve names that a general English dictionary may miss. Matching
+OCR results are cached for reuse.
+
+### Embedding 
+
+**Character TF-IDF performs best across all four classifiers.** A plausible
+explanation is that alcohol/non-alcohol classification relies heavily on topic
+cues such as drink and brand names. TF-IDF preserves these terms, while character
+fragments retain useful parts of OCR-damaged words. MiniLM's contextual strengths
+may contribute less when the input consists of short, noisy fragments with
+little sentence context.
+
+The [intermediate results](#embedding-results) combine **visual assessment with
+PCA plots** and **quantitative assessment with cosine silhouette scores and
+explained variance**. Silhouette measures class separation in the full feature
+space; scores range from **0.0057 to 0.0174**, with MiniLM highest. Together with
+the overlapping PCA plots, these scores suggest weak global separation,
+consistent with difficult photographs and noisy text. Explained variance helps
+interpret the plots: the first two character TF-IDF components retain only
+**3.58%** of the variance. Useful predictive features can still exist within
+overlapping representations, as the test results demonstrate.
+
+To handle damaged words, the comparison includes **3–5-character fragments**
+and combined word/character features alongside pretrained MiniLM and GloVe.
+TF-IDF vocabularies are fitted only on training text, and vectors are
+L2-normalized. PCA is used for visualization; classifiers retain the full
+features to preserve information lost in the projection.
+
+### Classifiers
+
+MLP and logistic regression lead on character TF-IDF, with PR AUCs of **0.9735**
+and **0.9729**. Adding word features lowers both models' accuracy. Rankings also
+depend on the embedding: with MiniLM, logistic regression has higher accuracy
+than MLP (**80.30% vs. 77.58%**), while random forest has the highest PR AUC
+(**0.9028**). Greater model complexity therefore brings no consistent advantage.
+
+Each classifier was trained once per embedding on the same training rows and
+evaluated on the same test rows. MLP uses L2 regularization, and random forest
+requires at least two images per leaf to limit overfitting. Models are compared
+using all seven metrics and selected by PR AUC, with ROC AUC breaking ties.
+
+![MLPClassifier test accuracy, alcohol F1, ROC AUC, and PR AUC across five embeddings](results/classification/mlp/embedding_comparison.png)
+
+For MLP, character TF-IDF reaches **88.48% accuracy**, compared with **77.58%**
+for MiniLM and **74.55%** for GloVe. The combined TF-IDF representation stays
+close in PR AUC (**0.9689**) but reduces accuracy to **86.06%**.
+
+Accuracy is easy to interpret on this balanced test set. Alcohol precision
+measures false alarms, **recall** measures how many alcohol images are detected,
+and F1 balances the two. Macro F1 gives both classes equal weight. These metrics
+reveal trade-offs: XGBoost with character TF-IDF has **0.970 recall** but only
+**0.777 precision**, whereas MLP offers a more balanced result.
+
+Depending on the use case, **Recall can be critical**. When the goal is to remove
+alcohol-related photographs, missed alcohol images remain in the collection.
+A removal workflow may therefore prioritize recall, accepting more false
+positives; the decision threshold should reflect that trade-off.
+
+**ROC AUC and PR AUC were chosen because they evaluate performance across
+decision thresholds**, without requiring one fixed classification threshold.
+ROC AUC compares alcohol detection with the false-positive rate, while PR AUC
+focuses on alcohol precision and recall. PR AUC guides model selection, with
+ROC AUC breaking ties. 

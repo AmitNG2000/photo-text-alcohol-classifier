@@ -1,0 +1,2 @@
+images,dimensions,unique_tokens,known_unique_tokens,total_tokens,matched_tokens,token_coverage_percent,zero_vectors
+1100,100,2263,1149,5398,4174,77.3249351611708,78

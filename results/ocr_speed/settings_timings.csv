@@ -1,0 +1,11 @@
+configuration,file_name,threads,magnification,batch_size,seconds,same_text_as_current,text
+current,0000a.jpg,4,2.0,1,4.216256104999047,True,pontmisslmitededitionnightlifebourbonevent
+current,0000na.jpg,4,2.0,1,7.411842478002654,True,23 / 3   Tooescee umnededi acEmnan3Cp2281 {
+batch_8,0000a.jpg,4,2.0,8,4.019842506000714,True,pontmisslmitededitionnightlifebourbonevent
+batch_8,0000na.jpg,4,2.0,8,6.886963049000769,False,23 / 3   Cooescee umededi acEmnan3Cp281 {
+magnification_1.5,0000a.jpg,4,1.5,1,2.344217429003038,True,pontmisslmitededitionnightlifebourbonevent
+magnification_1.5,0000na.jpg,4,1.5,1,4.184617018996505,False,}   Goroeschec umiededitcncarnal Sepec31
+threads_2,0000a.jpg,2,2.0,1,6.678014409997559,True,pontmisslmitededitionnightlifebourbonevent
+threads_2,0000na.jpg,2,2.0,1,11.466627829002391,True,23 / 3   Tooescee umnededi acEmnan3Cp2281 {
+threads_8,0000a.jpg,8,2.0,1,3.2668678530026227,True,pontmisslmitededitionnightlifebourbonevent
+threads_8,0000na.jpg,8,2.0,1,5.81273707299988,True,23 / 3   Tooescee umnededi acEmnan3Cp2281 {

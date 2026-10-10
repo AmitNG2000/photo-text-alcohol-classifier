@@ -1,0 +1,6 @@
+embedding_method,model,dimensions,silhouette_score
+BERT-based,sentence-transformers/all-MiniLM-L6-v2,384,0.017382145
+GloVe,glove-wiki-gigaword-100,100,0.0156142395
+Character TF-IDF,N/A,5000,0.012818418
+Word + Character TF-IDF,N/A,8861,0.0092472555
+Word TF-IDF,N/A,3861,0.0057241684

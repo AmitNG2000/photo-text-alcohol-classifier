@@ -1,0 +1,3 @@
+label,image_count,images_with_text,images_with_vectors,total_tokens,matched_tokens,mean_coverage_percent,token_coverage_percent
+alcohol,550,540,510,2642,2081,75.29908533315513,78.7660862982589
+non_alcohol,550,543,512,2756,2093,74.30259349761454,75.94339622641509

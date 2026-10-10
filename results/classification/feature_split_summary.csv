@@ -1,0 +1,6 @@
+embedding,train_images,test_images,features
+Character TF-IDF,770,330,5000
+Word TF-IDF,770,330,3861
+Word + Character TF-IDF,770,330,8861
+MiniLM,770,330,384
+GloVe,770,330,100
