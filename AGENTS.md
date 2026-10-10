@@ -34,7 +34,7 @@ In Jupyter Notebook (`.ipynb`) files, cells should follow a consistent three-ste
 
 Repeat this structure for each logical step in the notebook to ensure clarity, readability, and consistency.
 
-Use Markdown headings at different levels (#, ##, ###, etc.) to create a clear, logical, and hierarchical structure throughout the Jupyter Notebook (.ipynb).
+Use Markdown headings at different levels (#, ##, ###, etc.) to create a clear, logical, and hierarchical structure throughout the Jupyter Notebook (.ipynb). Do not have "Function Definition", "Function Call" and "Results and Visualization" titels.
 
 When downloading a new package, add it to `requirements.txt` with its version.
 

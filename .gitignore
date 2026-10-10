@@ -1,6 +1,5 @@
 # Project
-images_test
-results_test
+test/
 *.joblib
 *.npy
 *.npz

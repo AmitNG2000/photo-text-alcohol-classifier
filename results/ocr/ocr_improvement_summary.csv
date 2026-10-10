@@ -1,0 +1,3 @@
+metric,baseline,improved,reference_images
+Mean character error rate,0.5007930107526881,0.09464157706093189,8
+Mean word error rate,0.8645833333333334,0.26488095238095233,8
