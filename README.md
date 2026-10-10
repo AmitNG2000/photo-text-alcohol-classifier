@@ -461,3 +461,15 @@ These cases illustrate different limitations:
 These proposed improvements would need validation. A threshold change alone
 cannot recover an alcohol keyword that OCR never extracted, and increasing
 recall may introduce more false positives.
+
+## Further Work
+
+With more time, I would focus on improving OCR. Manual and Codex-assisted checks
+revealed extraction errors. Together with overlapping PCA projections and low
+silhouette scores across all embeddings, these findings suggest that noisy text
+may be limiting class separation. I would test image sharpening, transformations
+such as edge detection using convolution, and additional rotation angles to
+recover more accurate text. I would also compare other CPU-compatible OCR models
+and measure their effect on transcription accuracy and classification results.
+If hardware and budget constraints allowed, I would explore multi-modal LLMs for
+text extraction.
