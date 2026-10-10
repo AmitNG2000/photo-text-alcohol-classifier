@@ -58,6 +58,7 @@ and its fitted text representation to `results/best_vectorizer.joblib`.
 Use these artifacts to classify a directory of unlabeled images on the CPU:
 
 ```bash
+source .venv/bin/activate
 python src/inference.py /path/to/images --output results/results.csv
 ```
 
@@ -410,3 +411,53 @@ decision thresholds**, without requiring one fixed classification threshold.
 ROC AUC compares alcohol detection with the false-positive rate, while PR AUC
 focuses on alcohol precision and recall. PR AUC guides model selection, with
 ROC AUC breaking ties. 
+
+
+### Failure Cases
+
+The selected **MLP with character TF-IDF** misclassified **38 of 330 test images**:
+**18 false negatives** (missed alcohol images) and **20 false positives**
+(non-alcohol images flagged as alcohol). The examples below use the saved
+[held-out predictions](results/classification/mlp/tfidf/test_predictions.csv).
+True labels come from the dataset folders.
+
+![Four test failures showing the original images, true labels, and predictions](results/classification/failure_cases.png)
+
+The table shows cleaned OCR text, with excerpts for longer transcriptions.
+`P(alcohol)` is the classifier's predicted alcohol probability.
+
+| Image | True label | Prediction | Cleaned OCR text | P(alcohol) |
+| --- | --- | --- | --- | ---: |
+| [0427a.jpg](images/alcohol/0427a.jpg) | alcohol | non_alcohol | *(no text extracted)* | 0.449 |
+| [0039a.jpg](images/alcohol/0039a.jpg) | alcohol | non_alcohol | `try ' tport ev en … toshiki matsuya …` | 0.223 |
+| [0275na.jpg](images/non_alcohol/0275na.jpg) | non_alcohol | alcohol | `get read for pprenfium cba` | 0.775 |
+| [3016na.jpg](images/non_alcohol/3016na.jpg) | non_alcohol | alcohol | `il iz 33 mss bar mascha arensberg pruett funeral home` | 0.627 |
+
+These cases illustrate different limitations:
+
+- **Missing text - 0427a.jpg:** The image contains small, tilted text mentioning
+  “TEQUILA,” but OCR returns an empty string. The classifier therefore receives
+  a zero vector. A possible improvement is to detect and enlarge small text
+  regions and try a wider range of rotations. Images with no extracted text
+  could also be routed for review.
+- **Fragmented text and background clutter - 0039a.jpg:** The overlay splits
+  “event” across lines beside “port.” OCR merges part of it into `tport` and
+  includes unrelated tennis captions. The cleaned text retains this error.
+  Better text-box grouping and region-level classification could help preserve
+  the alcohol reference while reducing background text. “Port” also needs
+  context because it has non-alcohol meanings.
+- **Damaged non-alcohol text - 0275na.jpg:** The overlay refers to “premium cbd,”
+  while OCR produces `pprenfium cba`. The model still predicts alcohol. This
+  suggests that generic promotional wording or overlapping character fragments
+  may outweigh the damaged non-alcohol term; the exact feature contribution was
+  not measured. More non-alcohol examples with similar promotional wording and
+  vocabulary support for terms such as “CBD” could help.
+- **Ambiguous wording - 3016na.jpg:** The overlay says “DON'T MISS BAR MATCHA,”
+  but OCR reads `bar mascha` and also extracts the funeral-home sign. “Bar”
+  alone does not establish an alcohol reference, and the matcha cue is misspelled.
+  Context-aware handling of ambiguous terms and better recovery of non-alcohol
+  beverage names could reduce this type of false positive.
+
+These proposed improvements would need validation. A threshold change alone
+cannot recover an alcohol keyword that OCR never extracted, and increasing
+recall may introduce more false positives.
