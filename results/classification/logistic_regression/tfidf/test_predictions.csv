@@ -1,331 +1,331 @@
-embedding_row,file_name,image_path,label,extracted_text,has_text,prediction,alcohol_probability,is_correct
-397,0427a.jpg,images/alcohol/0427a.jpg,alcohol,,False,non_alcohol,0.4921309948559226,False
-505,3050a.jpg,images/alcohol/3050a.jpg,alcohol,cocktait SpeciAI,True,alcohol,0.6688964455126792,True
-41,0044a.jpg,images/alcohol/0044a.jpg,alcohol,Try reserve johuhiel Inlted edhtion walker,True,alcohol,0.6824774831598549,True
-641,0096na.jpg,images/non_alcohol/0096na.jpg,non_alcohol,Anq for celebration cbd,True,non_alcohol,0.32918806060589845,True
-842,0315na.jpg,images/non_alcohol/0315na.jpg,non_alcohol,J9 Spm Slna Ran U0 M | 4Q vo in Jnovs Neolls?s Kdtome JI7ITV3IJ? MAJIAUMA DhututSMNIIAQ AOMZA Rotetie DmiJ MAo nateroptWN Di bnt Lka Arakl,True,non_alcohol,0.4988294693615774,True
-408,0440a.jpg,images/alcohol/0440a.jpg,alcohol,Jickoetehedlole e dholfpaey,True,alcohol,0.5193397975087802,True
-57,0062a.jpg,images/alcohol/0062a.jpg,alcohol,JIAjslooo awiges1 Ilblsd? Lezina efinoq,True,non_alcohol,0.35956956410505936,False
-395,0424a.jpg,images/alcohol/0424a.jpg,alcohol,el s Ja d 3n specA danl,True,alcohol,0.5373157826479,True
-226,0244a.jpg,images/alcohol/0244a.jpg,alcohol,pren nampagne,True,alcohol,0.7127200880044702,True
-1025,3014na.jpg,images/non_alcohol/3014na.jpg,non_alcohol,celebration water,True,non_alcohol,0.25189718441362796,True
-608,0062na.jpg,images/non_alcohol/0062na.jpg,non_alcohol,cannabi5,True,non_alcohol,0.22436762492504833,True
-271,0291a.jpg,images/alcohol/0291a.jpg,alcohol,mponed Umit 4oee brandy 669 %haele C01 Ay,True,alcohol,0.7247236557064285,True
-6,0007a.jpg,images/alcohol/0007a.jpg,alcohol,Try taste lager,True,alcohol,0.7721830222081494,True
-18,0020a.jpg,images/alcohol/0020a.jpg,alcohol,Don't miss event Whiskey check,True,alcohol,0.8542124053945181,True
-524,3071a.jpg,images/alcohol/3071a.jpg,alcohol,budweiser,True,alcohol,0.805268917160276,True
-790,0258na.jpg,images/non_alcohol/0258na.jpg,non_alcohol,SKf Enjey bar disoount @Olee expbre,True,non_alcohol,0.3443136114991352,True
-320,0343a.jpg,images/alcohol/0343a.jpg,alcohol,Don't miss bar event whiskey,True,alcohol,0.8218282383438761,True
-889,0364na.jpg,images/non_alcohol/0364na.jpg,non_alcohol,isoda [eseive,True,non_alcohol,0.2561980479599514,True
-530,3079a.jpg,images/alcohol/3079a.jpg,alcohol,3 Td Don' OFfER Smodth rardi,True,alcohol,0.7249734775140568,True
-238,0256a.jpg,images/alcohol/0256a.jpg,alcohol,smirnoff,True,alcohol,0.7544368136152222,True
-401,0432a.jpg,images/alcohol/0432a.jpg,alcohol,Check out taste m of,True,alcohol,0.6541257045911265,True
-832,0304na.jpg,images/non_alcohol/0304na.jpg,non_alcohol,Don 't miss menu taste milks hake ] mpo rt ed,True,non_alcohol,0.42061194281246295,True
-1083,3082na.jpg,images/non_alcohol/3082na.jpg,non_alcohol,LiAOIL RNOWWAUERRAL,True,alcohol,0.5558138975882855,False
-73,0080a.jpg,images/alcohol/0080a.jpg,alcohol,2 Syex phamnilan !,True,alcohol,0.5748855183884398,True
-829,0301na.jpg,images/non_alcohol/0301na.jpg,non_alcohol,Tby premiumnuehtlife espresso,True,non_alcohol,0.22868911873564565,True
-599,0052na.jpg,images/non_alcohol/0052na.jpg,non_alcohol,sonSin9ax] 710 30iJjMngq? UGw,True,non_alcohol,0.4066420693893399,True
-558,0011na.jpg,images/non_alcohol/0011na.jpg,non_alcohol,"Voi ffol marijuana Tedition; mited , DopkigL",True,non_alcohol,0.25483339362199886,True
-516,3061a.jpg,images/alcohol/3061a.jpg,alcohol,rum,True,alcohol,0.596187579578848,True
-392,0421a.jpg,images/alcohol/0421a.jpg,alcohol,poM Of KOin Trr,True,alcohol,0.5283886913048196,True
-19,0021a.jpg,images/alcohol/0021a.jpg,alcohol,gni,True,non_alcohol,0.4236573033690712,False
-935,0414na.jpg,images/non_alcohol/0414na.jpg,non_alcohol,Ujedr-2 SiA 2 .U boji D9t 37r07,True,non_alcohol,0.486251175630592,True
-382,0411a.jpg,images/alcohol/0411a.jpg,alcohol,G3t readly for special premium guinne5s,True,alcohol,0.7091483138313139,True
-630,0085na.jpg,images/non_alcohol/0085na.jpg,non_alcohol,milkshake brew,True,non_alcohol,0.20755646069317124,True
-593,0046na.jpg,images/non_alcohol/0046na.jpg,non_alcohol,Mlc PUSH DJOWN Bocen0 ` (42ub) notnto Chic*en Execes (1 /6) 70-1 mn espresso Menu,True,non_alcohol,0.2191390354546805,True
-68,0075a.jpg,images/alcohol/0075a.jpg,alcohol,Clpelte Tehnalovalketsta,True,alcohol,0.5291451160260455,True
-850,0323na.jpg,images/non_alcohol/0323na.jpg,non_alcohol,5700 20775 63 nILk,True,non_alcohol,0.36891524645916757,True
-767,0234na.jpg,images/non_alcohol/0234na.jpg,non_alcohol,ei4855rx,True,alcohol,0.5043083081650155,False
-282,0303a.jpg,images/alcohol/0303a.jpg,alcohol,reserve bacardi menu rabisa Try,True,alcohol,0.7167146587555737,True
-1091,3091na.jpg,images/non_alcohol/3091na.jpg,non_alcohol,enrgy drnk PhotoExtremist com,True,non_alcohol,0.33402843615629974,True
-150,0162a.jpg,images/alcohol/0162a.jpg,alcohol,lager,True,alcohol,0.7880471952708784,True
-1008,0493na.jpg,images/non_alcohol/0493na.jpg,non_alcohol,m STJF 01 Mow 1( HARPER | END TORIXE STOl THE AR;,True,non_alcohol,0.4586368516416504,True
-547,3097a.jpg,images/alcohol/3097a.jpg,alcohol,Q T Daed,True,non_alcohol,0.4849074355562564,False
-8,0009a.jpg,images/alcohol/0009a.jpg,alcohol,Get eadyfor smoothwhbhoypaty,True,alcohol,0.6529895504215412,True
-341,0365a.jpg,images/alcohol/0365a.jpg,alcohol,Chech noV[eseaveabeelut greb oube,True,alcohol,0.6172848820842997,True
-465,3007a.jpg,images/alcohol/3007a.jpg,alcohol,gin Ty Dste iglielye,True,alcohol,0.6299309070322096,True
-791,0259na.jpg,images/non_alcohol/0259na.jpg,non_alcohol,OnotVatty bart ennAin,True,alcohol,0.5011343810025932,False
-173,0185a.jpg,images/alcohol/0185a.jpg,alcohol,,False,non_alcohol,0.4921309948559226,False
-162,0174a.jpg,images/alcohol/0174a.jpg,alcohol,beer discoun],True,alcohol,0.604085265377328,True
-809,0278na.jpg,images/non_alcohol/0278na.jpg,non_alcohol,Umited editon _veina,True,alcohol,0.527595571159115,False
-740,0205na.jpg,images/non_alcohol/0205na.jpg,non_alcohol,Yie` 4-fe,True,alcohol,0.5963565060138878,False
-554,0007na.jpg,images/non_alcohol/0007na.jpg,non_alcohol,Kbd hEE,True,non_alcohol,0.324437423827087,True
-893,0368na.jpg,images/non_alcohol/0368na.jpg,non_alcohol,eonenecx de won tneva 08291029 ottodeleo,True,non_alcohol,0.4115553347731798,True
-1024,3013na.jpg,images/non_alcohol/3013na.jpg,non_alcohol,edltion limited milkshake,True,non_alcohol,0.2836367038926477,True
-823,0294na.jpg,images/non_alcohol/0294na.jpg,non_alcohol,cannabis taste,True,non_alcohol,0.203857168350993,True
-478,3020a.jpg,images/alcohol/3020a.jpg,alcohol,Fwg clrd r,True,non_alcohol,0.47974105294107194,False
-826,0298na.jpg,images/non_alcohol/0298na.jpg,non_alcohol,75 Vfeaaicha meny,True,non_alcohol,0.4205260384987078,True
-46,0049a.jpg,images/alcohol/0049a.jpg,alcohol,cocktail,True,alcohol,0.7400160246386664,True
-366,0393a.jpg,images/alcohol/0393a.jpg,alcohol,lager; premium,True,alcohol,0.6867162318710828,True
-737,0202na.jpg,images/non_alcohol/0202na.jpg,non_alcohol,Miik Enjoy Taste flevor,True,non_alcohol,0.24864088539817633,True
-739,0204na.jpg,images/non_alcohol/0204na.jpg,non_alcohol,Enjoy taste premium lemonade event,True,non_alcohol,0.16564277768890895,True
-446,0486a.jpg,images/alcohol/0486a.jpg,alcohol,Iry ienu bbeerparzy,True,alcohol,0.5737996392421886,True
-441,0481a.jpg,images/alcohol/0481a.jpg,alcohol,a0t (Juot muimerq = 43sr5 nexlenied =,True,alcohol,0.5788904497514741,True
-450,0490a.jpg,images/alcohol/0490a.jpg,alcohol,Cererdeee %lrter,True,non_alcohol,0.38490373624630564,False
-909,0385na.jpg,images/non_alcohol/0385na.jpg,non_alcohol,'Mespresso,True,non_alcohol,0.13803940383200136,True
-403,0434a.jpg,images/alcohol/0434a.jpg,alcohol,lisixoos,True,non_alcohol,0.4935300723520686,False
-537,3087a.jpg,images/alcohol/3087a.jpg,alcohol,oh Dont miss special,True,alcohol,0.7000128729832691,True
-614,0068na.jpg,images/non_alcohol/0068na.jpg,non_alcohol,cnnt LWUKE $ MOspitaL Mudmeri NOT TO BE TAKEM Cannabis,True,non_alcohol,0.2078132904328033,True
-684,0144na.jpg,images/non_alcohol/0144na.jpg,non_alcohol,Getready forparyberbanseapremim,True,alcohol,0.5222953137620069,False
-678,0137na.jpg,images/non_alcohol/0137na.jpg,non_alcohol,"Coc ; Serationj O Lesenvg Lve, Laac",True,alcohol,0.5286830130530585,False
-438,0477a.jpg,images/alcohol/0477a.jpg,alcohol,port lim] Tledt,True,alcohol,0.6879236705071855,True
-216,0234a.jpg,images/alcohol/0234a.jpg,alcohol,2 % WOr d61D zz9rniUD Jrigv9 JrU ow2id pT,True,non_alcohol,0.45931321315912166,False
-563,0016na.jpg,images/non_alcohol/0016na.jpg,non_alcohol,Get ready for taste icedttea,True,non_alcohol,0.4351077865485257,True
-360,0386a.jpg,images/alcohol/0386a.jpg,alcohol,gguinness nightlifel,True,alcohol,0.7388872446593537,True
-979,0460na.jpg,images/non_alcohol/0460na.jpg,non_alcohol,IIR 077e1 sonuedciton Exp3ri3nce brew Sparklin g wa t3r,True,non_alcohol,0.2797855423659105,True
-189,0202a.jpg,images/alcohol/0202a.jpg,alcohol,CHEck oUtcheckimporteD beer impOrted,True,alcohol,0.7842412224547396,True
-571,0024na.jpg,images/non_alcohol/0024na.jpg,non_alcohol,Lookig,True,non_alcohol,0.24026063768507275,True
-444,0484a.jpg,images/alcohol/0484a.jpg,alcohol,Check out Jexplore guinness,True,alcohol,0.7821652573426252,True
-143,0155a.jpg,images/alcohol/0155a.jpg,alcohol,ported,True,alcohol,0.6690405063902028,True
-721,0185na.jpg,images/non_alcohol/0185na.jpg,non_alcohol,Looking for limited edition coffee smooth,True,non_alcohol,0.26668598327166626,True
-13,0015a.jpg,images/alcohol/0015a.jpg,alcohol,jack daniels nightlife,True,alcohol,0.819816864213529,True
-942,0422na.jpg,images/non_alcohol/0422na.jpg,non_alcohol,Qud] JcHECKI EXPLORE ESPRESsO,True,non_alcohol,0.19004559539625882,True
-302,0323a.jpg,images/alcohol/0323a.jpg,alcohol,port Imported,True,alcohol,0.7441725678478608,True
-802,0270na.jpg,images/non_alcohol/0270na.jpg,non_alcohol,0 ffer lemonade menu Icheckout,True,non_alcohol,0.3672730209828495,True
-570,0023na.jpg,images/non_alcohol/0023na.jpg,non_alcohol,Sbinomsl,True,non_alcohol,0.45986242535057786,True
-533,3083a.jpg,images/alcohol/3083a.jpg,alcohol,"""aibsolut Snkooth Kearetoencnor",True,alcohol,0.7034912285202186,True
-1042,3037na.jpg,images/non_alcohol/3037na.jpg,non_alcohol,Tncule We,True,non_alcohol,0.41871160913360717,True
-116,0126a.jpg,images/alcohol/0126a.jpg,alcohol,Jhiesed Nfibg ~ /(0691t93,True,non_alcohol,0.47187201760357783,False
-1026,3016na.jpg,images/non_alcohol/3016na.jpg,non_alcohol,Il Iz 33 MSS BaR mascha ARENSBERG PRUETT Funeral Home,True,non_alcohol,0.4546733401752628,True
-326,0349a.jpg,images/alcohol/0349a.jpg,alcohol,,False,non_alcohol,0.4921309948559226,False
-228,0246a.jpg,images/alcohol/0246a.jpg,alcohol,j93 voxzidw 16d vhaq 10} vbssy,True,alcohol,0.5229352215781048,True
-421,0457a.jpg,images/alcohol/0457a.jpg,alcohol,"ChecK"" out even]beer bar",True,alcohol,0.7750463575352065,True
-363,0389a.jpg,images/alcohol/0389a.jpg,alcohol,Library Way Madison Ave Don't miss special import ed 4bsolut,True,alcohol,0.8103490085500017,True
-512,3057a.jpg,images/alcohol/3057a.jpg,alcohol,bor heineka special,True,alcohol,0.7003374704081897,True
-545,3095a.jpg,images/alcohol/3095a.jpg,alcohol,bacardi|,True,alcohol,0.7888455246199959,True
-656,0112na.jpg,images/non_alcohol/0112na.jpg,non_alcohol,matcha pary PAMPERO,True,non_alcohol,0.20699588967977658,True
-551,0002na.jpg,images/non_alcohol/0002na.jpg,non_alcohol,5 Y flAvor/ LaSTe nighTlite nsey,True,alcohol,0.5376954435872319,False
-941,0421na.jpg,images/non_alcohol/0421na.jpg,non_alcohol,Enjoy diScount celeBraTiOn Isodae edltiOn= Limited _,True,non_alcohol,0.2809088915712627,True
-858,0332na.jpg,images/non_alcohol/0332na.jpg,non_alcohol,pmsj,True,non_alcohol,0.4921309948559226,True
-597,0050na.jpg,images/non_alcohol/0050na.jpg,non_alcohol,weed brew,True,non_alcohol,0.14230966864664318,True
-229,0247a.jpg,images/alcohol/0247a.jpg,alcohol,imported event gin Tr,True,alcohol,0.705185365173214,True
-1004,0488na.jpg,images/non_alcohol/0488na.jpg,non_alcohol,hot chocolate,True,non_alcohol,0.1651510954998885,True
-75,0082a.jpg,images/alcohol/0082a.jpg,alcohol,ToTTeNhaM; SuppoRT OUR LocaL TRadeRs Aewie Gattiznt Hale SC CG Newlon Village,True,alcohol,0.648932236473642,True
-133,0145a.jpg,images/alcohol/0145a.jpg,alcohol,miss offer stella artois bar,True,alcohol,0.8021961801475473,True
-922,0401na.jpg,images/non_alcohol/0401na.jpg,non_alcohol,Try 0 Oes Cas nightlife_ bar_ lemonade',True,non_alcohol,0.39180623868141323,True
-548,3098a.jpg,images/alcohol/3098a.jpg,alcohol,SteLla artois],True,alcohol,0.7523247540559858,True
-422,0458a.jpg,images/alcohol/0458a.jpg,alcohol,Hdenetoteiyick party rum flavor Try,True,alcohol,0.5568680578642152,True
-172,0184a.jpg,images/alcohol/0184a.jpg,alcohol,nol- tpidsls) pibov,True,alcohol,0.5495342278648971,True
-191,0204a.jpg,images/alcohol/0204a.jpg,alcohol,BAE SYSTEMS Whlekey taste Pc2n BAE SYSTEMS HB-HZc,True,alcohol,0.5732061111652537,True
-542,3092a.jpg,images/alcohol/3092a.jpg,alcohol,'check,True,alcohol,0.6393618781052,True
-43,0046a.jpg,images/alcohol/0046a.jpg,alcohol,2lsinsb,True,alcohol,0.5367597873424274,True
-241,0260a.jpg,images/alcohol/0260a.jpg,alcohol,ni 3- XogdD juo jnsv9 Vf Ipq,True,non_alcohol,0.4522352734761112,False
-756,0221na.jpg,images/non_alcohol/0221na.jpg,non_alcohol,IEXA Check brew out iced check tea event,True,non_alcohol,0.47545532008771535,True
-483,3026a.jpg,images/alcohol/3026a.jpg,alcohol,Donizmissdsenvel,True,alcohol,0.5531264103317213,True
-164,0176a.jpg,images/alcohol/0176a.jpg,alcohol,Mrler onjo enie) editic limit3y miss Don'7,True,alcohol,0.6456125521488691,True
-1068,3064na.jpg,images/non_alcohol/3064na.jpg,non_alcohol,0 _ utV imited edition arahon energy orina Sn,True,non_alcohol,0.3280413725889996,True
-131,0143a.jpg,images/alcohol/0143a.jpg,alcohol,e E3s erve Get ready forpi Um Dourbon,True,alcohol,0.725854464616169,True
-311,0333a.jpg,images/alcohol/0333a.jpg,alcohol,MF Check out DOw absolut grab,True,alcohol,0.8377213326185444,True
-89,0098a.jpg,images/alcohol/0098a.jpg,alcohol,6 @et L 'Teadu check bear,True,alcohol,0.6730876092121864,True
-212,0230a.jpg,images/alcohol/0230a.jpg,alcohol,bacardi,True,alcohol,0.7954490671915413,True
-515,3060a.jpg,images/alcohol/3060a.jpg,alcohol,nav SOUTHWES Dc Sea eis{ ardc,True,alcohol,0.5204726558667974,True
-650,0106na.jpg,images/non_alcohol/0106na.jpg,non_alcohol,iced tea Try navor celebration premium,True,non_alcohol,0.3969832908962802,True
-364,0390a.jpg,images/alcohol/0390a.jpg,alcohol,Id dsteov,True,non_alcohol,0.49985485557160664,False
-637,0092na.jpg,images/non_alcohol/0092na.jpg,non_alcohol,"Mhd 031274801 ""oinz tisq J26}"" bdo",True,non_alcohol,0.4526269302208428,True
-396,0425a.jpg,images/alcohol/0425a.jpg,alcohol,sogns hoc q191& Jlo slosr3,True,non_alcohol,0.42452592707684167,False
-220,0238a.jpg,images/alcohol/0238a.jpg,alcohol,1 miss +i on ited Don Tim skey whis edi brew,True,alcohol,0.7497670722668321,True
-959,0440na.jpg,images/non_alcohol/0440na.jpg,non_alcohol,amooll milz Expenience = check,True,non_alcohol,0.3251420064208607,True
-234,0252a.jpg,images/alcohol/0252a.jpg,alcohol,C: iGrunch gob WINdow Dont miss now checke boubon,True,alcohol,0.7435497688651935,True
-155,0167a.jpg,images/alcohol/0167a.jpg,alcohol,E,True,alcohol,0.5181265675493923,True
-53,0058a.jpg,images/alcohol/0058a.jpg,alcohol,Check lout specialbudweiser special,True,alcohol,0.7622797349450856,True
-304,0326a.jpg,images/alcohol/0326a.jpg,alcohol,ken nighilife;,True,alcohol,0.6495499944170452,True
-426,0464a.jpg,images/alcohol/0464a.jpg,alcohol,,False,non_alcohol,0.4921309948559226,False
-1036,3027na.jpg,images/non_alcohol/3027na.jpg,non_alcohol,Looking ter Crelebration cannrabisrdjiscou nt,True,non_alcohol,0.16074254718554934,True
-988,0469na.jpg,images/non_alcohol/0469na.jpg,non_alcohol,Tnemr Gpa 7R USA Itllhuilr GET READY FOR DISCOUNT PARTY HOT CHOCOLATE Pete Edgeler,True,non_alcohol,0.28305547891798244,True
-887,0362na.jpg,images/non_alcohol/0362na.jpg,non_alcohol,Doeleeiiserberal dice,True,alcohol,0.5040195312539446,False
-813,0282na.jpg,images/non_alcohol/0282na.jpg,non_alcohol,m,True,alcohol,0.5163331553815537,False
-603,0057na.jpg,images/non_alcohol/0057na.jpg,non_alcohol,'t Marissa Farra Photographye Don' miss flavel,True,alcohol,0.5479052330576433,False
-1000,0482na.jpg,images/non_alcohol/0482na.jpg,non_alcohol,cbd p Iky,True,non_alcohol,0.2311466364104886,True
-148,0160a.jpg,images/alcohol/0160a.jpg,alcohol,da he 50817 30717 gount Inera,True,non_alcohol,0.4256899116868605,False
-232,0250a.jpg,images/alcohol/0250a.jpg,alcohol,[Don't miss explore jack d4niels,True,alcohol,0.7644758020612106,True
-968,0449na.jpg,images/non_alcohol/0449na.jpg,non_alcohol,Check out reserve party marijuana;,True,non_alcohol,0.3054479809026041,True
-252,0272a.jpg,images/alcohol/0272a.jpg,alcohol,4 miss Don wipe bak,True,alcohol,0.7548629577337753,True
-894,0369na.jpg,images/non_alcohol/0369na.jpg,non_alcohol,Cet ready for taste cannabis special,True,non_alcohol,0.3114292129102821,True
-511,3056a.jpg,images/alcohol/3056a.jpg,alcohol,Tum flave,True,non_alcohol,0.49200463735981287,False
-590,0043na.jpg,images/non_alcohol/0043na.jpg,non_alcohol,6071 ookngc edition menudiscoun} coffcoC limited,True,non_alcohol,0.44221528700939633,True
-710,0173na.jpg,images/non_alcohol/0173na.jpg,non_alcohol,"3xplore ene eydrin "" TOYOTA BL09XC5d Try",True,non_alcohol,0.4102340773347973,True
-476,3018a.jpg,images/alcohol/3018a.jpg,alcohol,Dont mmiss bar meniy-budweiser taste,True,alcohol,0.7872347409708947,True
-612,0066na.jpg,images/non_alcohol/0066na.jpg,non_alcohol,HUUAVN pnUTAFIMNI HUUAMN Get ready for bar menu energy drink,True,non_alcohol,0.26768172137277363,True
-995,0477na.jpg,images/non_alcohol/0477na.jpg,non_alcohol,Zidornp) Xood2,True,non_alcohol,0.47806639058918005,True
-193,0206a.jpg,images/alcohol/0206a.jpg,alcohol,""". , remien",True,alcohol,0.5262052515561128,True
-786,0254na.jpg,images/non_alcohol/0254na.jpg,non_alcohol,Importedeneroy for ready imported Get drink,True,alcohol,0.5044595425930725,False
-980,0461na.jpg,images/non_alcohol/0461na.jpg,non_alcohol,juice,True,non_alcohol,0.16139110602547418,True
-1005,0490na.jpg,images/non_alcohol/0490na.jpg,non_alcohol,Enjoy flarol ot chocolate,True,non_alcohol,0.14035795597330514,True
-806,0275na.jpg,images/non_alcohol/0275na.jpg,non_alcohol,Get reaDy for prEniunc cbac,True,alcohol,0.6045389804453004,False
-863,0337na.jpg,images/non_alcohol/0337na.jpg,non_alcohol,1744441 espfesso Gheck,True,non_alcohol,0.3357762248181848,True
-1011,0498na.jpg,images/non_alcohol/0498na.jpg,non_alcohol,Check out Offer menu water premium,True,non_alcohol,0.4544814324652859,True
-947,0427na.jpg,images/non_alcohol/0427na.jpg,non_alcohol,Gct rco ayfor cxplorc menu csorcssoi Importcd,True,alcohol,0.5753165514934026,False
-330,0354a.jpg,images/alcohol/0354a.jpg,alcohol,chFECk Ibjerei 47 4a,True,alcohol,0.5180057730768804,True
-1054,3050na.jpg,images/non_alcohol/3050na.jpg,non_alcohol,(exBalteaBaf,True,non_alcohol,0.45248647936706327,True
-373,0401a.jpg,images/alcohol/0401a.jpg,alcohol,flavor party lager 7ry,True,alcohol,0.6813291083346619,True
-454,0494a.jpg,images/alcohol/0494a.jpg,alcohol,Try ojjer chedk itequila,True,alcohol,0.7488990454036478,True
-655,0111na.jpg,images/non_alcohol/0111na.jpg,non_alcohol,EbMM 2291 92€ sbgrbo sjilarp in 107 @bp91 182,True,non_alcohol,0.4547587808613129,True
-1014,3001na.jpg,images/non_alcohol/3001na.jpg,non_alcohol,Hey Cupcakel @OFFee,True,non_alcohol,0.30596120894918166,True
-98,0107a.jpg,images/alcohol/0107a.jpg,alcohol,VODKA,True,alcohol,0.7730849879547903,True
-762,0227na.jpg,images/non_alcohol/0227na.jpg,non_alcohol,zeim tMoa 8p 1p 13 #o eldpnnpo won 3?,True,non_alcohol,0.4269815371811719,True
-464,3006a.jpg,images/alcohol/3006a.jpg,alcohol,budueiser,True,alcohol,0.7414260799671919,True
-1053,3049na.jpg,images/non_alcohol/3049na.jpg,non_alcohol,Experence IImported Ideck cannobis,True,non_alcohol,0.3052178574800378,True
-419,0455a.jpg,images/alcohol/0455a.jpg,alcohol,Wii absolut' nightlife',True,alcohol,0.7521517708039688,True
-201,0216a.jpg,images/alcohol/0216a.jpg,alcohol,favor tequila specil = Try,True,alcohol,0.7003073273508402,True
-1048,3044na.jpg,images/non_alcohol/3044na.jpg,non_alcohol,HICH NOON OOr eon I1S1C Colj BEE? WSIC _ 'GoLd 2E87 lebokbewc jrydk HICH Noov,True,non_alcohol,0.4167497735709979,True
-564,0017na.jpg,images/non_alcohol/0017na.jpg,non_alcohol,Looking] ffor bar brew weed,True,non_alcohol,0.10828730448737545,True
-711,0174na.jpg,images/non_alcohol/0174na.jpg,non_alcohol,Looking for grab nowheibal 7ea flavor,True,non_alcohol,0.2082551822964883,True
-61,0066a.jpg,images/alcohol/0066a.jpg,alcohol,0y Jom} celebrad readyfor smooth,True,alcohol,0.6079730731177909,True
-90,0099a.jpg,images/alcohol/0099a.jpg,alcohol,reserve budweiser,True,alcohol,0.717222300803258,True
-838,0310na.jpg,images/non_alcohol/0310na.jpg,non_alcohol,Enjoynenu Prem Ium mmilk,True,non_alcohol,0.1854026313719708,True
-688,0148na.jpg,images/non_alcohol/0148na.jpg,non_alcohol,hot chocolate,True,non_alcohol,0.1651510954998885,True
-1009,0495na.jpg,images/non_alcohol/0495na.jpg,non_alcohol,cbdl,True,non_alcohol,0.3350936470173851,True
-648,0104na.jpg,images/non_alcohol/0104na.jpg,non_alcohol,Check out smooth Ilemonade meng,True,non_alcohol,0.4601290002332311,True
-963,0444na.jpg,images/non_alcohol/0444na.jpg,non_alcohol,ta Looking hot chocolate for chezl grob now Aass,True,non_alcohol,0.1135221941927185,True
-414,0449a.jpg,images/alcohol/0449a.jpg,alcohol,RONN SUEZ dbsolut,True,alcohol,0.7351746641596183,True
-765,0232na.jpg,images/non_alcohol/0232na.jpg,non_alcohol,ko( bar special,True,alcohol,0.5392223989968075,False
-810,0279na.jpg,images/non_alcohol/0279na.jpg,non_alcohol,espresso,True,non_alcohol,0.11085862970406633,True
-751,0216na.jpg,images/non_alcohol/0216na.jpg,non_alcohol,IGet for premium Imported cannabis ready,True,non_alcohol,0.39381310098689537,True
-1052,3048na.jpg,images/non_alcohol/3048na.jpg,non_alcohol,hot Gmt] colate flavor,True,non_alcohol,0.20682844734324352,True
-757,0222na.jpg,images/non_alcohol/0222na.jpg,non_alcohol,Ieoghggve: Imuimeaqe dsbnoqm c enevihem,True,non_alcohol,0.3912820192678867,True
-993,0475na.jpg,images/non_alcohol/0475na.jpg,non_alcohol,Vewalt TEA,True,non_alcohol,0.3468575912650466,True
-928,0407na.jpg,images/non_alcohol/0407na.jpg,non_alcohol,Fparkl water night life ing,True,non_alcohol,0.24041562458781227,True
-1060,3056na.jpg,images/non_alcohol/3056na.jpg,non_alcohol,weed limited edition Try p2i special party_,True,non_alcohol,0.4353873837582517,True
-69,0076a.jpg,images/alcohol/0076a.jpg,alcohol,"I970 Ig2i9wbud Jpip9qz wori dpI 10] Ybp9,193",True,non_alcohol,0.4927359010052171,False
-214,0232a.jpg,images/alcohol/0232a.jpg,alcohol,eventbudweiser_ menue event for ready Get =,True,alcohol,0.744272245980925,True
-144,0156a.jpg,images/alcohol/0156a.jpg,alcohol,1 are 0v719287 22fi Qoq_,True,non_alcohol,0.42262929792335285,False
-1016,3003na.jpg,images/non_alcohol/3003na.jpg,non_alcohol,Dont micz offer cparkling water flavor,True,non_alcohol,0.19919918490214125,True
-0,0000a.jpg,images/alcohol/0000a.jpg,alcohol,Donlmisslimitededitionnighilifebourbonevent,True,alcohol,0.6680752964449934,True
-338,0362a.jpg,images/alcohol/0362a.jpg,alcohol,gin taste},True,alcohol,0.6256634875600635,True
-685,0145na.jpg,images/non_alcohol/0145na.jpg,non_alcohol,eqao Datdecaiao Gmooth Epedeco,True,alcohol,0.5529330142971455,False
-146,0158a.jpg,images/alcohol/0158a.jpg,alcohol,"Check out brew"" limited edition merlot_",True,alcohol,0.7209011189213725,True
-611,0065na.jpg,images/non_alcohol/0065na.jpg,non_alcohol,ry reserve special juice,True,non_alcohol,0.2753788436997993,True
-491,3036a.jpg,images/alcohol/3036a.jpg,alcohol,"CLEANand DRY_ EMERCENCY SERVICES "" Yout |esnid & - (513): -2337 Geh € 4dy tor premium' guinness Suilu"" 226-_",True,alcohol,0.6653808127947619,True
-900,0376na.jpg,images/non_alcohol/0376na.jpg,non_alcohol,jjuice,True,non_alcohol,0.1739729326276168,True
-601,0055na.jpg,images/non_alcohol/0055na.jpg,non_alcohol,"uotoon coffee r~Ru 0,X rreserve",True,non_alcohol,0.27270725589784633,True
-1070,3067na.jpg,images/non_alcohol/3067na.jpg,non_alcohol,Try party celebration cbd discount,True,non_alcohol,0.3704905338004719,True
-272,0292a.jpg,images/alcohol/0292a.jpg,alcohol,Jolinile Walker,True,alcohol,0.6830011339988471,True
-764,0230na.jpg,images/non_alcohol/0230na.jpg,non_alcohol,Enloy mmported detee,True,alcohol,0.5292989370999294,False
-535,3085a.jpg,images/alcohol/3085a.jpg,alcohol,'4ldnazie,True,alcohol,0.5001848826894195,True
-1094,3094na.jpg,images/non_alcohol/3094na.jpg,non_alcohol,coffel,True,non_alcohol,0.24270922435083078,True
-853,0326na.jpg,images/non_alcohol/0326na.jpg,non_alcohol,tea out Check iced offer,True,non_alcohol,0.4619818288313004,True
-468,3010a.jpg,images/alcohol/3010a.jpg,alcohol,Don't miss Taste smooth beer,True,alcohol,0.8019035749935641,True
-274,0294a.jpg,images/alcohol/0294a.jpg,alcohol,SHLRIAIS daniebsatend,True,non_alcohol,0.4631923778774058,False
-865,0339na.jpg,images/non_alcohol/0339na.jpg,non_alcohol,Check cannabis menu out,True,non_alcohol,0.36801196001829517,True
-36,0039a.jpg,images/alcohol/0039a.jpg,alcohol,Toshiki Matsuya Nike Junidr Tour vsta Natidnal Masters Fanio Oetmonim Aare _ Try ev en tport,True,non_alcohol,0.4987557741594069,False
-400,0431a.jpg,images/alcohol/0431a.jpg,alcohol,8842 9niw,True,non_alcohol,0.46399385553503614,False
-1040,3035na.jpg,images/non_alcohol/3035na.jpg,non_alcohol,grab now milkshake,True,non_alcohol,0.23621753635618295,True
-780,0248na.jpg,images/non_alcohol/0248na.jpg,non_alcohol,WWIV THEBIGBALML Baly herbal tea,True,non_alcohol,0.22251704262994462,True
-181,0194a.jpg,images/alcohol/0194a.jpg,alcohol,KGY K Drew imported brand? ?elebratign 95E1/95 MEURE,True,alcohol,0.6581529218500217,True
-716,0180na.jpg,images/non_alcohol/0180na.jpg,non_alcohol,MilkShake offer out = CheCk,True,non_alcohol,0.3900070564588444,True
-347,0371a.jpg,images/alcohol/0371a.jpg,alcohol,"57T ,",True,alcohol,0.536732686201232,True
-121,0132a.jpg,images/alcohol/0132a.jpg,alcohol,Crt Cn,True,alcohol,0.5168827359112451,True
-967,0448na.jpg,images/non_alcohol/0448na.jpg,non_alcohol,"9r ""~teher , #eat",True,non_alcohol,0.4743047287730553,True
-7,0008a.jpg,images/alcohol/0008a.jpg,alcohol,ont miss taste specal event port,True,alcohol,0.6634024946990335,True
-680,0139na.jpg,images/non_alcohol/0139na.jpg,non_alcohol,GET READY FOR SPECIAL WATER,True,non_alcohol,0.38283558360720754,True
-329,0353a.jpg,images/alcohol/0353a.jpg,alcohol,try puemlum evEnt whiskey,True,alcohol,0.7833056074723341,True
-167,0179a.jpg,images/alcohol/0179a.jpg,alcohol,Dzbov,True,alcohol,0.6024975729152507,True
-372,0399a.jpg,images/alcohol/0399a.jpg,alcohol,wine,True,alcohol,0.8553329408454886,True
-817,0286na.jpg,images/non_alcohol/0286na.jpg,non_alcohol,voin] prlottn JnuoozibetiJjrpin e1iJjdpin,True,alcohol,0.5378867896732432,False
-440,0480a.jpg,images/alcohol/0480a.jpg,alcohol,nia,True,alcohol,0.5097777909401644,True
-264,0284a.jpg,images/alcohol/0284a.jpg,alcohol,5 Don't MiSS Giiul-fesenvOnum discount_,True,alcohol,0.6218927047482775,True
-278,0299a.jpg,images/alcohol/0299a.jpg,alcohol,0052B~a d,True,non_alcohol,0.4541083415057077,False
-190,0203a.jpg,images/alcohol/0203a.jpg,alcohol,Trye Umited party edition merlot premium,True,alcohol,0.6272632915419162,True
-147,0159a.jpg,images/alcohol/0159a.jpg,alcohol,Va9CQ Jeeljtaq Lr nuksq,True,non_alcohol,0.40163186388622923,False
-937,0417na.jpg,images/non_alcohol/0417na.jpg,non_alcohol,91 30 0 Brett Lexn Photeyroly herbal L tea,True,non_alcohol,0.23358673625764748,True
-577,0030na.jpg,images/non_alcohol/0030na.jpg,non_alcohol,premium milk smooth for ready Get =,True,alcohol,0.5115237022961932,False
-543,3093a.jpg,images/alcohol/3093a.jpg,alcohol,C Try Heck smoo Port Th R3senve,True,alcohol,0.7664197798011808,True
-258,0278a.jpg,images/alcohol/0278a.jpg,alcohol,dufad n,True,alcohol,0.5051836571289408,True
-291,0312a.jpg,images/alcohol/0312a.jpg,alcohol,"ICheck out imported menu tequila Id"" ttonb, 123 5279",True,alcohol,0.7316248587310407,True
-125,0136a.jpg,images/alcohol/0136a.jpg,alcohol,smioft,True,alcohol,0.5791683612189824,True
-591,0044na.jpg,images/non_alcohol/0044na.jpg,non_alcohol,Try special herbal tea check,True,non_alcohol,0.4244228555866742,True
-159,0171a.jpg,images/alcohol/0171a.jpg,alcohol,Check out party now smirnoff grab,True,alcohol,0.7722742336080349,True
-11,0012a.jpg,images/alcohol/0012a.jpg,alcohol,MMPORTED RUM,True,alcohol,0.6556028759353796,True
-621,0076na.jpg,images/non_alcohol/0076na.jpg,non_alcohol,Exparcece paty carnan8|,True,non_alcohol,0.44678401677428803,True
-766,0233na.jpg,images/non_alcohol/0233na.jpg,non_alcohol,milkshake,True,non_alcohol,0.1976903501502964,True
-876,0350na.jpg,images/non_alcohol/0350na.jpg,non_alcohol,coffee,True,non_alcohol,0.20798169259605512,True
-24,0026a.jpg,images/alcohol/0026a.jpg,alcohol,,False,non_alcohol,0.4921309948559226,False
-202,0217a.jpg,images/alcohol/0217a.jpg,alcohol,"6Nbov :#"" Kat",True,alcohol,0.6019435195973369,True
-956,0437na.jpg,images/non_alcohol/0437na.jpg,non_alcohol,marijuana bar,True,non_alcohol,0.16882108646340088,True
-895,0370na.jpg,images/non_alcohol/0370na.jpg,non_alcohol,OAus JGet ready for sp3ci4lhot chocolate brew,True,non_alcohol,0.2864891417930351,True
-383,0412a.jpg,images/alcohol/0412a.jpg,alcohol,Try brew Jeleier taste artois stella,True,alcohol,0.7384125106899186,True
-1037,3028na.jpg,images/non_alcohol/3028na.jpg,non_alcohol,FRI ZFD ItALiac LONIONS= CHcKD SAC GRILLED E STEKKINA CAJEN SATSAGE ChESE POLsa Ohions ISTEAK 1eA6 ESH Dodo LEMONADEI miss tese oothe cbdi,True,non_alcohol,0.3705410538841447,True
-776,0243na.jpg,images/non_alcohol/0243na.jpg,non_alcohol,dentneopytwfk,True,non_alcohol,0.48066473117725067,True
-368,0395a.jpg,images/alcohol/0395a.jpg,alcohol,cochtAil,True,alcohol,0.641224041261829,True
-582,0035na.jpg,images/non_alcohol/0035na.jpg,non_alcohol,367e 577,True,alcohol,0.5272984095919484,False
-79,0087a.jpg,images/alcohol/0087a.jpg,alcohol,#rod 22im 9v9 00r* zobiuo- edovd,True,alcohol,0.5604192195435496,True
-132,0144a.jpg,images/alcohol/0144a.jpg,alcohol,4j9 d rig Jn 91a nditsid9l9) 1 01 Vb691 J93,True,non_alcohol,0.48182647012802027,False
-845,0318na.jpg,images/non_alcohol/0318na.jpg,non_alcohol,"Oie 7odor ,p) JroiWae Jas8e",True,non_alcohol,0.4503201769015513,True
-916,0395na.jpg,images/non_alcohol/0395na.jpg,non_alcohol,AUTBEKTIC Balh 19@p Check ouf limitededition enetoy drnk,True,non_alcohol,0.452709123937125,True
-1041,3036na.jpg,images/non_alcohol/3036na.jpg,non_alcohol,matcha,True,non_alcohol,0.12568159772356338,True
-531,3080a.jpg,images/alcohol/3080a.jpg,alcohol,Donlt miss laver guinness 08/2512007 11.34 am,True,alcohol,0.7896420797030937,True
-540,3090a.jpg,images/alcohol/3090a.jpg,alcohol,Get ready for= explore bourbon,True,alcohol,0.6971256250226167,True
-584,0037na.jpg,images/non_alcohol/0037na.jpg,non_alcohol,milk,True,non_alcohol,0.14685569399334011,True
-451,0491a.jpg,images/alcohol/0491a.jpg,alcohol,ICheck out offer heineken],True,alcohol,0.8124325820793481,True
-880,0355na.jpg,images/non_alcohol/0355na.jpg,non_alcohol,erisyo# NAllf @ 4n1oDI,True,alcohol,0.5353583165198519,False
-999,0481na.jpg,images/non_alcohol/0481na.jpg,non_alcohol,"Dont teae miss: reservel herbal"" event smooth",True,non_alcohol,0.4317802435559241,True
-814,0283na.jpg,images/non_alcohol/0283na.jpg,non_alcohol,"water ""Cr'",True,non_alcohol,0.14513855361108202,True
-652,0108na.jpg,images/non_alcohol/0108na.jpg,non_alcohol,Don't dhechflavarnotchoco,True,non_alcohol,0.4753196039232193,True
-462,3003a.jpg,images/alcohol/3003a.jpg,alcohol,EMWRNOFE-CElE32,True,alcohol,0.5776277609318051,True
-357,0383a.jpg,images/alcohol/0383a.jpg,alcohol,gn menu party out Check,True,alcohol,0.6786584525708586,True
-755,0220na.jpg,images/non_alcohol/0220na.jpg,non_alcohol,Enjoy limited edition dIScount icEd tea,True,non_alcohol,0.2185134834059662,True
-1055,3051na.jpg,images/non_alcohol/3051na.jpg,non_alcohol,ExPErtence reservE navorespressobaR,True,non_alcohol,0.14961623183451483,True
-706,0168na.jpg,images/non_alcohol/0168na.jpg,non_alcohol,hot cho colat3,True,non_alcohol,0.2444809607775904,True
-1098,3098na.jpg,images/non_alcohol/3098na.jpg,non_alcohol,7+ now grab tea herbal T+A,True,non_alcohol,0.23484209468280198,True
-518,3063a.jpg,images/alcohol/3063a.jpg,alcohol,InerLo: high7 11fe discount Miss DOntt,True,alcohol,0.6256460587730911,True
-508,3053a.jpg,images/alcohol/3053a.jpg,alcohol,hampazn,True,alcohol,0.6127987060402292,True
-793,0261na.jpg,images/non_alcohol/0261na.jpg,non_alcohol,smOoth party Experience milkShake,True,non_alcohol,0.19933993721874924,True
-135,0147a.jpg,images/alcohol/0147a.jpg,alcohol,Try now johnnie walker grab,True,alcohol,0.8179251541884798,True
-433,0471a.jpg,images/alcohol/0471a.jpg,alcohol,Wnlitya H5JiJ792,True,alcohol,0.5235285625693823,True
-951,0431na.jpg,images/non_alcohol/0431na.jpg,non_alcohol,Try mit ed editia colate grabnowll prer jlfty},True,non_alcohol,0.4231784737092736,True
-801,0269na.jpg,images/non_alcohol/0269na.jpg,non_alcohol,"vo 49 9v i3 291 "" bstioqmi - vei9n9 slniib",True,non_alcohol,0.38996484670344345,True
-140,0152a.jpg,images/alcohol/0152a.jpg,alcohol,Lne,True,alcohol,0.5832711313414629,True
-602,0056na.jpg,images/non_alcohol/0056na.jpg,non_alcohol,kcbd offer,True,non_alcohol,0.4084626979826453,True
-163,0175a.jpg,images/alcohol/0175a.jpg,alcohol,S 44anenoleld,True,non_alcohol,0.49455524859632516,False
-728,0192na.jpg,images/non_alcohol/0192na.jpg,non_alcohol,Ion3r64,True,non_alcohol,0.4848649138674198,True
-985,0466na.jpg,images/non_alcohol/0466na.jpg,non_alcohol,TROTTOIR Aarre,True,alcohol,0.513126734207926,False
-28,0030a.jpg,images/alcohol/0030a.jpg,alcohol,Get ready for event party jack daniels,True,alcohol,0.8112466643065183,True
-219,0237a.jpg,images/alcohol/0237a.jpg,alcohol,Ttdste_ powsmiuoffba gdb,True,alcohol,0.5849902397237061,True
-820,0290na.jpg,images/non_alcohol/0290na.jpg,non_alcohol,"Epy"" Ostersund Badhusparkon espresso speckl e expble :",True,non_alcohol,0.17903246988015395,True
-176,0189a.jpg,images/alcohol/0189a.jpg,alcohol,edition limited budweiser,True,alcohol,0.7734706655812951,True
-763,0229na.jpg,images/non_alcohol/0229na.jpg,non_alcohol,lemonad3 flavor premium Out ChEck,True,non_alcohol,0.3939662938200478,True
-741,0206na.jpg,images/non_alcohol/0206na.jpg,non_alcohol,Offer Enjoy drnk energy,True,non_alcohol,0.14123326354493168,True
-222,0240a.jpg,images/alcohol/0240a.jpg,alcohol,Check out limited edition event smirnoff bar,True,alcohol,0.7845593591394141,True
-1034,3025na.jpg,images/non_alcohol/3025na.jpg,non_alcohol,Enj y imported 1 menu = espresso,True,non_alcohol,0.22391558357464367,True
-1097,3097na.jpg,images/non_alcohol/3097na.jpg,non_alcohol,matcha TO LET [Leamington 180 L4MM,True,non_alcohol,0.177379551861481,True
-489,3033a.jpg,images/alcohol/3033a.jpg,alcohol,Don't miss discount champagne explore A erdgas gcrio,True,alcohol,0.7039242267182305,True
-38,0041a.jpg,images/alcohol/0041a.jpg,alcohol,"WOkN"" MXsw HiuMoL",True,non_alcohol,0.49193164780353454,False
-977,0458na.jpg,images/non_alcohol/0458na.jpg,non_alcohol,mksharaeploro,True,non_alcohol,0.4756259850633397,True
-750,0215na.jpg,images/non_alcohol/0215na.jpg,non_alcohol,W eed brew,True,non_alcohol,0.3514559417007691,True
-95,0104a.jpg,images/alcohol/0104a.jpg,alcohol,You lager Love,True,alcohol,0.7334810233865264,True
-771,0238na.jpg,images/non_alcohol/0238na.jpg,non_alcohol,,False,non_alcohol,0.4921309948559226,True
-997,0479na.jpg,images/non_alcohol/0479na.jpg,non_alcohol,mik taste,True,non_alcohol,0.43942114198691296,True
-819,0288na.jpg,images/non_alcohol/0288na.jpg,non_alcohol,gtelojodb tod- (o) (ionunsmond Wwnw 0o Oo,True,non_alcohol,0.4929479777417972,True
-166,0178a.jpg,images/alcohol/0178a.jpg,alcohol,port nygntlife,True,alcohol,0.73718578698132,True
-939,0419na.jpg,images/non_alcohol/0419na.jpg,non_alcohol,SparKling water taste Depy Steyi,True,non_alcohol,0.14266997200524723,True
-901,0377na.jpg,images/non_alcohol/0377na.jpg,non_alcohol,Looling FOI llo emiUm aCed 9_,True,non_alcohol,0.28877902958970597,True
-145,0157a.jpg,images/alcohol/0157a.jpg,alcohol,Check out celebration disco U nt stella arto is brew,True,alcohol,0.684937190310619,True
-316,0339a.jpg,images/alcohol/0339a.jpg,alcohol,Jrnoff,True,alcohol,0.6354268551855632,True
-1029,3019na.jpg,images/non_alcohol/3019na.jpg,non_alcohol,Ocnow,True,non_alcohol,0.4916536821617945,True
-877,0351na.jpg,images/non_alcohol/0351na.jpg,non_alcohol,on't Aal coffee,True,non_alcohol,0.28698378260817253,True
-908,0384na.jpg,images/non_alcohol/0384na.jpg,non_alcohol,juicel,True,non_alcohol,0.20851876770092004,True
-345,0369a.jpg,images/alcohol/0369a.jpg,alcohol,"Don' bar brew Sutile""",True,alcohol,0.6074846929309264,True
-1085,3085na.jpg,images/non_alcohol/3085na.jpg,non_alcohol,38 Experience exPloRe brew herbaL tea FIRE 1,True,non_alcohol,0.14598005432765546,True
-169,0181a.jpg,images/alcohol/0181a.jpg,alcohol,chLRdonnay imported ouT Check ',True,alcohol,0.8170246377642496,True
-638,0093na.jpg,images/non_alcohol/0093na.jpg,non_alcohol,now flavorlemonade event Getready for= grab),True,non_alcohol,0.3093008907918468,True
-251,0271a.jpg,images/alcohol/0271a.jpg,alcohol,Check out bar cocktail nightlife 0y Jom},True,alcohol,0.8158844199091577,True
-142,0154a.jpg,images/alcohol/0154a.jpg,alcohol,r8Y3XZIhVE Dakw4jatj0,True,alcohol,0.5542767757911448,True
-532,3082a.jpg,images/alcohol/3082a.jpg,alcohol,guinness,True,alcohol,0.7902185946174312,True
-108,0118a.jpg,images/alcohol/0118a.jpg,alcohol,moilbidsl9j ezim Tnoq mivimsq pliups},True,non_alcohol,0.45549562467943766,False
-4,0005a.jpg,images/alcohol/0005a.jpg,alcohol,Douftmisslimited editionlited editiom port imported,True,alcohol,0.7022362866729457,True
-929,0408na.jpg,images/non_alcohol/0408na.jpg,non_alcohol,espresso check,True,non_alcohol,0.1990081099987922,True
-453,0493a.jpg,images/alcohol/0493a.jpg,alcohol,2 2 Don em 5s grab_ noil tesenv9 check smirnoff,True,alcohol,0.7521450204301217,True
-1080,3079na.jpg,images/non_alcohol/3079na.jpg,non_alcohol,hot chocolate event,True,non_alcohol,0.1884426660862466,True
-300,0321a.jpg,images/alcohol/0321a.jpg,alcohol,Get ready for check heineken brew,True,alcohol,0.8601705040762787,True
-969,0450na.jpg,images/non_alcohol/0450na.jpg,non_alcohol,ezabea nowi [rab,True,non_alcohol,0.4436409825268616,True
-859,0333na.jpg,images/non_alcohol/0333na.jpg,non_alcohol,"epecta water ""sparkling",True,non_alcohol,0.12067877643762395,True
-223,0241a.jpg,images/alcohol/0241a.jpg,alcohol,lager,True,alcohol,0.7880471952708784,True
-712,0175na.jpg,images/non_alcohol/0175na.jpg,non_alcohol,neqonbilbu2us= e AIX TenoHDo asmadr eeii,True,non_alcohol,0.45910859808018584,True
-649,0105na.jpg,images/non_alcohol/0105na.jpg,non_alcohol,TRy flavor sod rarted) edition,True,alcohol,0.5693062164687498,False
-804,0272na.jpg,images/non_alcohol/0272na.jpg,non_alcohol,Experience taste importedcbd,True,non_alcohol,0.2544791574704225,True
-386,0415a.jpg,images/alcohol/0415a.jpg,alcohol,[Check out explore stella artois nightlfe,True,alcohol,0.7612216508594913,True
-645,0100na.jpg,images/non_alcohol/0100na.jpg,non_alcohol,FosttuCor GOSTona Ghe Donbmi_ spesie{tlavorsoda,True,non_alcohol,0.31135020056812923,True
-185,0198a.jpg,images/alcohol/0198a.jpg,alcohol,"grab n"" Amenu 8tella ari7e8 (uedo Try",True,alcohol,0.7321940700467148,True
-1065,3061na.jpg,images/non_alcohol/3061na.jpg,non_alcohol,dedtonpmtelclinjts,True,non_alcohol,0.4611912759236533,True
-671,0130na.jpg,images/non_alcohol/0130na.jpg,non_alcohol,Don't miss menu bor energy drink,True,non_alcohol,0.27527348641794047,True
-416,0452a.jpg,images/alcohol/0452a.jpg,alcohol,ronis ~ Celers Igin Guip? rates,True,alcohol,0.5364555296350232,True
+embedding_row,file_name,image_path,label,extracted_text,cleaned_text,has_text,prediction,alcohol_probability,is_correct
+397,0427a.jpg,images/alcohol/0427a.jpg,alcohol,,,False,alcohol,0.5029206790082079,True
+505,3050a.jpg,images/alcohol/3050a.jpg,alcohol,cocktait SpeciAI,cocktait speciai,True,alcohol,0.6632079327478997,True
+41,0044a.jpg,images/alcohol/0044a.jpg,alcohol,Try reserve johuhiel Inlted edhtion walker,try reserve johuhiel inlted edhtion walker,True,alcohol,0.6636252542910444,True
+641,0096na.jpg,images/non_alcohol/0096na.jpg,non_alcohol,Anq for celebration cbd,anq for celebration cbd,True,non_alcohol,0.34807407610190605,True
+842,0315na.jpg,images/non_alcohol/0315na.jpg,non_alcohol,"IEmow Brignte; CinG TNIRO ef. 2110 pef . nj oy 3 event eepbr  D SCIENTIFIC TDNwM, AMERICAN Aeiu TTE DAZZLNLFutunsof PLASMOR Toltet DU Witgenstein Sinangen I0tu 7 Ttas ,","iemow brigante; cing tniro ef. 2110 pef . nj oy 3 event eepbr d scientific tdnwm, american aeiu tte dazzlnlfutunsof plasmor toltet du witgenstein sinangen i0tu 7 ttas ,",True,non_alcohol,0.433917027246141,True
+408,0440a.jpg,images/alcohol/0440a.jpg,alcohol,Jickoetehedlole e dholfpaey,jickoetehedlole e dholfpaey,True,alcohol,0.5799259100003907,True
+57,0062a.jpg,images/alcohol/0062a.jpg,alcohol,cocktAIL IreservE SPeclall miss  Dont,cocktail reserve speclall miss dont,True,alcohol,0.6900567851624893,True
+395,0424a.jpg,images/alcohol/0424a.jpg,alcohol,elo IAbeqz Indb Dpl,elo iabeqz indb dpl,True,alcohol,0.5126899164829379,True
+226,0244a.jpg,images/alcohol/0244a.jpg,alcohol,pren nampagne,pren nampagne,True,alcohol,0.7359151924644102,True
+1025,3014na.jpg,images/non_alcohol/3014na.jpg,non_alcohol,celebration water,celebration water,True,non_alcohol,0.2507248396313333,True
+608,0062na.jpg,images/non_alcohol/0062na.jpg,non_alcohol,cannabi5,cannabis,True,non_alcohol,0.18413305247914485,True
+271,0291a.jpg,images/alcohol/0291a.jpg,alcohol,mponed Umit 4oee brandy 669 %haele C01 Ay,mponed umit 4oee brandy 669 %hafele c01 ay,True,alcohol,0.7448580344712473,True
+6,0007a.jpg,images/alcohol/0007a.jpg,alcohol,Try taste lager,try taste lager,True,alcohol,0.8212621324153643,True
+18,0020a.jpg,images/alcohol/0020a.jpg,alcohol,Don't miss event Whiskey check,don't miss event whiskey check,True,alcohol,0.845309036024602,True
+524,3071a.jpg,images/alcohol/3071a.jpg,alcohol,budweiser,budweiser,True,alcohol,0.8273456564662751,True
+790,0258na.jpg,images/non_alcohol/0258na.jpg,non_alcohol,SKf Enjey bar disoount @Olee expbre,skf enjey bar disoount @olee expbre,True,non_alcohol,0.3082260650449889,True
+320,0343a.jpg,images/alcohol/0343a.jpg,alcohol,Don't miss bar event whiskey,don't miss bar event whiskey,True,alcohol,0.8138051345594328,True
+889,0364na.jpg,images/non_alcohol/0364na.jpg,non_alcohol,isoda [eseive,isoda [eseive,True,non_alcohol,0.27413509974157485,True
+530,3079a.jpg,images/alcohol/3079a.jpg,alcohol,3 Td Don' OFfER Smodth rardi,3 td don' offer smodth rardi,True,alcohol,0.7334352291028501,True
+238,0256a.jpg,images/alcohol/0256a.jpg,alcohol,smirnoff,smirnoff,True,alcohol,0.7912069013270218,True
+401,0432a.jpg,images/alcohol/0432a.jpg,alcohol,Check out taste m of,check out taste m of,True,alcohol,0.6659704979518384,True
+832,0304na.jpg,images/non_alcohol/0304na.jpg,non_alcohol,Don 't miss menu taste milks hake ] mpo rt ed,don 't miss menu taste milks hake ] mpo rt ed,True,non_alcohol,0.41171327351458065,True
+1083,3082na.jpg,images/non_alcohol/3082na.jpg,non_alcohol,LiAOIL RNOWWAUERRAL,liaoil rnowwauerral,True,alcohol,0.5049889010669293,False
+73,0080a.jpg,images/alcohol/0080a.jpg,alcohol,2 Syex phamnilan !,2 syex phamnilan !,True,alcohol,0.5674310951165554,True
+829,0301na.jpg,images/non_alcohol/0301na.jpg,non_alcohol,Tby premiumnuehtlife espresso,tby premiumnuehtlife espresso,True,non_alcohol,0.218799261160561,True
+599,0052na.jpg,images/non_alcohol/0052na.jpg,non_alcohol,R Expenience = OFF SpaRKling] Wau,r expenience = off sparkling] wau,True,non_alcohol,0.20014241800436597,True
+558,0011na.jpg,images/non_alcohol/0011na.jpg,non_alcohol,"Voi ffol marijuana Tedition; mited , DopkigL","voi ffol marijuana edition; minted , dopkigl",True,non_alcohol,0.2646922997015896,True
+516,3061a.jpg,images/alcohol/3061a.jpg,alcohol,rum,rum,True,alcohol,0.671438799107032,True
+392,0421a.jpg,images/alcohol/0421a.jpg,alcohol,poM Of KOin Trr,pom of koin trr,True,alcohol,0.6206035069712046,True
+19,0021a.jpg,images/alcohol/0021a.jpg,alcohol,wne,wne,True,alcohol,0.6321624066688608,True
+935,0414na.jpg,images/non_alcohol/0414na.jpg,non_alcohol,U.s AiR FORCE iced ted,u.s air force iced ted,True,non_alcohol,0.2761731271849931,True
+382,0411a.jpg,images/alcohol/0411a.jpg,alcohol,G3t readly for special premium guinne5s,get readily for special premium guinness,True,alcohol,0.7741636479458407,True
+630,0085na.jpg,images/non_alcohol/0085na.jpg,non_alcohol,milkshake brew,milkshake brew,True,non_alcohol,0.17920267495752504,True
+593,0046na.jpg,images/non_alcohol/0046na.jpg,non_alcohol,Mlc PUSH DJOWN Bocen0 ` (42ub) notnto Chic*en Execes (1 /6) 70-1 mn espresso Menu,mlc push djown bocen0 ` (42ub) notnto chic*en execs (1 /6) 70-1 mn espresso menu,True,non_alcohol,0.20373340968743853,True
+68,0075a.jpg,images/alcohol/0075a.jpg,alcohol,Clpelte Tehnalovalketsta,clpelte tehnalovalketsta,True,alcohol,0.5261809582889763,True
+850,0323na.jpg,images/non_alcohol/0323na.jpg,non_alcohol,5700 20775 63 nILk,5700 20775 63 nilk,True,non_alcohol,0.36592620107228424,True
+767,0234na.jpg,images/non_alcohol/0234na.jpg,non_alcohol,egeaestantg,egeaestantg,True,alcohol,0.556298366866425,False
+282,0303a.jpg,images/alcohol/0303a.jpg,alcohol,reserve bacardi menu rabisa Try,reserve bacardi menu raisa try,True,alcohol,0.7454326142161759,True
+1091,3091na.jpg,images/non_alcohol/3091na.jpg,non_alcohol,enrgy drnk PhotoExtremist com,energy drnk photoextremist com,True,non_alcohol,0.2025640232699747,True
+150,0162a.jpg,images/alcohol/0162a.jpg,alcohol,lager,lager,True,alcohol,0.8279985912916387,True
+1008,0493na.jpg,images/non_alcohol/0493na.jpg,non_alcohol,m STJF 01 Mow 1( HARPER | END TORIXE STOl THE AR;,m stjf 01 mow 1( harper | end torie stol the ar;,True,non_alcohol,0.45650154189874204,True
+547,3097a.jpg,images/alcohol/3097a.jpg,alcohol,Q T Daed,q t daed,True,non_alcohol,0.4963945996741991,False
+8,0009a.jpg,images/alcohol/0009a.jpg,alcohol,Get eadyfor smoothwhbhoypaty,get eadyfor smoothwhbhoypaty,True,alcohol,0.6633966697582753,True
+341,0365a.jpg,images/alcohol/0365a.jpg,alcohol,Chech noV[eseaveabeelut greb oube,cheech nov[eseaveabeelut greb oube,True,alcohol,0.5584840975785718,True
+465,3007a.jpg,images/alcohol/3007a.jpg,alcohol,gin Ty Dste iglielye,gin ty dste iglielye,True,alcohol,0.6893864363804536,True
+791,0259na.jpg,images/non_alcohol/0259na.jpg,non_alcohol,"MoAne, iedMinoerene","moaned, iedminoerene",True,non_alcohol,0.43902649888243506,True
+173,0185a.jpg,images/alcohol/0185a.jpg,alcohol,,,False,alcohol,0.5029206790082079,True
+162,0174a.jpg,images/alcohol/0174a.jpg,alcohol,beer discoun],beer discount],True,alcohol,0.6396126261812856,True
+809,0278na.jpg,images/non_alcohol/0278na.jpg,non_alcohol,roxtbe batim],roxtbe batim],True,alcohol,0.5505096555073041,False
+740,0205na.jpg,images/non_alcohol/0205na.jpg,non_alcohol,03iagiip -,03iagiip -,True,alcohol,0.525231477629547,False
+554,0007na.jpg,images/non_alcohol/0007na.jpg,non_alcohol,nAiba ,naiba,True,alcohol,0.5362254351494877,False
+893,0368na.jpg,images/non_alcohol/0368na.jpg,non_alcohol,perience grab now event espresso celebrotion,perience grab now event espresso celebration,True,non_alcohol,0.1351893670679553,True
+1024,3013na.jpg,images/non_alcohol/3013na.jpg,non_alcohol,edltion limited milkshake,edltion limited milkshake,True,non_alcohol,0.2608914495528491,True
+823,0294na.jpg,images/non_alcohol/0294na.jpg,non_alcohol,cannabis taste,cannabis taste,True,non_alcohol,0.22076555414209967,True
+478,3020a.jpg,images/alcohol/3020a.jpg,alcohol,Sb),sb),True,alcohol,0.5029206790082079,True
+826,0298na.jpg,images/non_alcohol/0298na.jpg,non_alcohol,27  _ Nnsr1 pdjpe,27 _ nnsr1 pdjpe,True,non_alcohol,0.48555903103943443,True
+46,0049a.jpg,images/alcohol/0049a.jpg,alcohol,cocktail,cocktail,True,alcohol,0.7281509563320836,True
+366,0393a.jpg,images/alcohol/0393a.jpg,alcohol,lager; premium,lager; premium,True,alcohol,0.690392267911585,True
+737,0202na.jpg,images/non_alcohol/0202na.jpg,non_alcohol,Miik Enjoy Taste flevor,miik enjoy taste flevor,True,non_alcohol,0.31403595474958373,True
+739,0204na.jpg,images/non_alcohol/0204na.jpg,non_alcohol,Enjoy taste premium lemonade event,enjoy taste premium lemonade event,True,non_alcohol,0.13304326710379455,True
+446,0486a.jpg,images/alcohol/0486a.jpg,alcohol,Iry ienu bbeerparzy,iry ienu bbeerparzy,True,alcohol,0.6005847437253667,True
+441,0481a.jpg,images/alcohol/0481a.jpg,alcohol,TOd out | premium E Check heineken,tod out | premium e check heineken,True,alcohol,0.816076617482055,True
+450,0490a.jpg,images/alcohol/0490a.jpg,alcohol,Reter 1ord,reter 1ord,True,non_alcohol,0.40656806077890756,False
+909,0385na.jpg,images/non_alcohol/0385na.jpg,non_alcohol,022914291 2,022914291 2,True,non_alcohol,0.48954966449781556,True
+403,0434a.jpg,images/alcohol/0434a.jpg,alcohol,eocktail,eocktail,True,alcohol,0.7153062957701463,True
+537,3087a.jpg,images/alcohol/3087a.jpg,alcohol,oh Dont  miss special,oh dont miss special,True,alcohol,0.7229176069028298,True
+614,0068na.jpg,images/non_alcohol/0068na.jpg,non_alcohol,cnnt LWUKE $ MOspitaL Mudmeri NOT TO BE TAKEM Cannabis,cnnt lwuke $ mospital mudmeri not to be takem cannabis,True,non_alcohol,0.21322642671978273,True
+684,0144na.jpg,images/non_alcohol/0144na.jpg,non_alcohol,Getready forparyberbanseapremim,getready forparyberbanseapremim,True,non_alcohol,0.4936963176037125,True
+678,0137na.jpg,images/non_alcohol/0137na.jpg,non_alcohol,"6 V9 noijo1ad,JC GV1929, 919","6 v9 noijo1ad,jc gv1929, 919",True,non_alcohol,0.4896728020387429,True
+438,0477a.jpg,images/alcohol/0477a.jpg,alcohol,port lim] Tledt,port lim] tledt,True,alcohol,0.6830137850278292,True
+216,0234a.jpg,images/alcohol/0234a.jpg,alcohol,3 3 Try Disco unt event Guinness Grab nOw,3 3 try disco unt event guinness grab now,True,alcohol,0.6943795175886691,True
+563,0016na.jpg,images/non_alcohol/0016na.jpg,non_alcohol,Get ready for taste icedttea,get ready for taste icedttea,True,non_alcohol,0.46210427991891817,True
+360,0386a.jpg,images/alcohol/0386a.jpg,alcohol,gguinness nightlifel,guinness nightlife,True,alcohol,0.8131141802325026,True
+979,0460na.jpg,images/non_alcohol/0460na.jpg,non_alcohol,IIR 077e1 sonuedciton Exp3ri3nce brew Sparklin g wa t3r,iir 077e1 sonuedciton experience brew sparkling g wa ter,True,non_alcohol,0.11452568716277994,True
+189,0202a.jpg,images/alcohol/0202a.jpg,alcohol,CHEck oUtcheckimporteD beer impOrted,check outcheckimported beer imported,True,alcohol,0.7523250073593285,True
+571,0024na.jpg,images/non_alcohol/0024na.jpg,non_alcohol,Lookig,looking,True,non_alcohol,0.12227524544199489,True
+444,0484a.jpg,images/alcohol/0484a.jpg,alcohol,Check out Jexplore guinness ,check out explore guinness,True,alcohol,0.8050278372530993,True
+143,0155a.jpg,images/alcohol/0155a.jpg,alcohol,ported,ported,True,alcohol,0.6324473309291959,True
+721,0185na.jpg,images/non_alcohol/0185na.jpg,non_alcohol,Looking for limited edition coffee smooth,looking for limited edition coffee smooth,True,non_alcohol,0.23182207521905465,True
+13,0015a.jpg,images/alcohol/0015a.jpg,alcohol,jack daniels nightlife,jack daniels nightlife,True,alcohol,0.8370168026607014,True
+942,0422na.jpg,images/non_alcohol/0422na.jpg,non_alcohol,Qud] JcHECKI EXPLORE ESPRESsO,qud] jchecki explore espresso,True,non_alcohol,0.1773946339578342,True
+302,0323a.jpg,images/alcohol/0323a.jpg,alcohol,port Imported,port imported,True,alcohol,0.6586403636871587,True
+802,0270na.jpg,images/non_alcohol/0270na.jpg,non_alcohol,0 ffer lemonade menu Icheckout,0 ffer lemonade menu checkout,True,non_alcohol,0.35012165436479015,True
+570,0023na.jpg,images/non_alcohol/0023na.jpg,non_alcohol,"Iemon4de,","iemon4de,",True,non_alcohol,0.31678124818286457,True
+533,3083a.jpg,images/alcohol/3083a.jpg,alcohol,"""aibsolut Snkooth Kearetoencnor","""absolut snkooth kearetoencnor",True,alcohol,0.7163162029230777,True
+1042,3037na.jpg,images/non_alcohol/3037na.jpg,non_alcohol,Tncule We,tncule we,True,non_alcohol,0.4083646436329535,True
+116,0126a.jpg,images/alcohol/0126a.jpg,alcohol,Ges read}` oinArty bacardi,ges read}` oinarty bacardi,True,alcohol,0.791947571236586,True
+1026,3016na.jpg,images/non_alcohol/3016na.jpg,non_alcohol,Il Iz 33 MSS BaR mascha ARENSBERG PRUETT Funeral Home,il iz 33 mss bar mascha arensberg pruett funeral home,True,non_alcohol,0.42722980865754967,True
+326,0349a.jpg,images/alcohol/0349a.jpg,alcohol,,,False,alcohol,0.5029206790082079,True
+228,0246a.jpg,images/alcohol/0246a.jpg,alcohol,Get rready fOr pArty bar whiskey,get ready for party bar whiskey,True,alcohol,0.8295360367423145,True
+421,0457a.jpg,images/alcohol/0457a.jpg,alcohol,"ChecK"" out even]beer bar","check"" out even]beer bar",True,alcohol,0.7543064325311759,True
+363,0389a.jpg,images/alcohol/0389a.jpg,alcohol,Library Way Madison Ave Don't miss   special import ed 4bsolut,library way madison ave don't miss special import ed absolut,True,alcohol,0.7924083692085331,True
+512,3057a.jpg,images/alcohol/3057a.jpg,alcohol,bor heineka special,bor heineka special,True,alcohol,0.7492856682759961,True
+545,3095a.jpg,images/alcohol/3095a.jpg,alcohol,ibeoed,ibeoed,True,non_alcohol,0.48796100758712924,False
+656,0112na.jpg,images/non_alcohol/0112na.jpg,non_alcohol,matcha pary PAMPERO,matcha pary pampero,True,non_alcohol,0.20133736118891307,True
+551,0002na.jpg,images/non_alcohol/0002na.jpg,non_alcohol,5 Y flAvor/ LaSTe nighTlite nsey,5 y flavor/ laste nightlite nsey,True,alcohol,0.561002769512535,False
+941,0421na.jpg,images/non_alcohol/0421na.jpg,non_alcohol,Enjoy diScount celeBraTiOn Isodae edltiOn= Limited _,enjoy discount celebration isoda edltion= limited _,True,non_alcohol,0.23529344995918663,True
+858,0332na.jpg,images/non_alcohol/0332na.jpg,non_alcohol,lemd,lemd,True,non_alcohol,0.36816061877464484,True
+597,0050na.jpg,images/non_alcohol/0050na.jpg,non_alcohol,weed brew,weed brew,True,non_alcohol,0.1274246901061825,True
+229,0247a.jpg,images/alcohol/0247a.jpg,alcohol,imported event gin Tr,imported event gin tr,True,alcohol,0.663793711490599,True
+1004,0488na.jpg,images/non_alcohol/0488na.jpg,non_alcohol,hot chocolate,hot chocolate,True,non_alcohol,0.12438243117334871,True
+75,0082a.jpg,images/alcohol/0082a.jpg,alcohol,ToTTeNhaM; SuppoRT OUR LocaL TRadeRs Aewie Gattiznt Hale SC CG Newlon Village ,tottenham; support our local traders aewie gattiznt hale sc cg newlon village,True,alcohol,0.6229801400577238,True
+133,0145a.jpg,images/alcohol/0145a.jpg,alcohol,miss offer stella artois bar,miss offer stella artois bar,True,alcohol,0.7973422277045704,True
+922,0401na.jpg,images/non_alcohol/0401na.jpg,non_alcohol,Try 0 Oes Cas nightlife_ bar_ lemonade',try 0 oes cas nightlife_ bar_ lemonade',True,non_alcohol,0.35819271332057373,True
+548,3098a.jpg,images/alcohol/3098a.jpg,alcohol,SteLla artois],stella artois],True,alcohol,0.7805484079960306,True
+422,0458a.jpg,images/alcohol/0458a.jpg,alcohol,Hdenetoteiyick party rum flavor Try,hdenetoteiyick party rum flavor try,True,alcohol,0.6091588215538113,True
+172,0184a.jpg,images/alcohol/0184a.jpg,alcohol,Ion Celebrat- vodka,ion celebrat- vodka,True,alcohol,0.7565809741951619,True
+191,0204a.jpg,images/alcohol/0204a.jpg,alcohol,BAE SYSTEMS Whlekey taste Pc2n BAE SYSTEMS HB-HZc,bae systems whlekey taste pc2n bae systems hb-hzc,True,alcohol,0.5957239348925468,True
+542,3092a.jpg,images/alcohol/3092a.jpg,alcohol,'check,'check,True,alcohol,0.6361128045280495,True
+43,0046a.jpg,images/alcohol/0046a.jpg,alcohol,daniels jack,daniels jack,True,alcohol,0.84688427322185,True
+241,0260a.jpg,images/alcohol/0260a.jpg,alcohol,g in par ty Check out event_,g in par ty check out event_,True,alcohol,0.622182391628495,True
+756,0221na.jpg,images/non_alcohol/0221na.jpg,non_alcohol,IEXA Check brew out iced check tea event,iexa check brew out iced check tea event,True,non_alcohol,0.39400364105061864,True
+483,3026a.jpg,images/alcohol/3026a.jpg,alcohol,Donizmissdsenvel,donizmissdsenvel,True,alcohol,0.5409054287386061,True
+164,0176a.jpg,images/alcohol/0176a.jpg,alcohol,Mrler onjo enie) editic limit3y miss Don'7,marler onjo enie) editic limit3y miss don't,True,alcohol,0.5693452178981898,True
+1068,3064na.jpg,images/non_alcohol/3064na.jpg,non_alcohol,0 _ utV imited edition  arahon energy orina Sn,0 _ utv limited edition arahon energy orina sn,True,non_alcohol,0.30207234599043487,True
+131,0143a.jpg,images/alcohol/0143a.jpg,alcohol,e E3s erve Get ready forpi Um Dourbon,e e3s erve get ready forpi um dourbon,True,alcohol,0.7291685113482325,True
+311,0333a.jpg,images/alcohol/0333a.jpg,alcohol,MF Check out DOw absolut grab,mf check out dow absolut grab,True,alcohol,0.8040353273271565,True
+89,0098a.jpg,images/alcohol/0098a.jpg,alcohol,6 @et L 'Teadu check bear,6 @et l 'teadu check bear,True,alcohol,0.6405655534229266,True
+212,0230a.jpg,images/alcohol/0230a.jpg,alcohol,bacardi,bacardi,True,alcohol,0.8204932167473876,True
+515,3060a.jpg,images/alcohol/3060a.jpg,alcohol,nav SOUTHWES Dc Sea eis{ ardc,nav southwest dc sea eis{ ardc,True,non_alcohol,0.47694946634999175,False
+650,0106na.jpg,images/non_alcohol/0106na.jpg,non_alcohol,iced tea Try navor celebration premium,iced tea try navor celebration premium,True,non_alcohol,0.33741326154758705,True
+364,0390a.jpg,images/alcohol/0390a.jpg,alcohol,vodfa bar,vodfa bar,True,alcohol,0.6568314098589056,True
+637,0092na.jpg,images/non_alcohol/0092na.jpg,non_alcohol,Lo8hs5t82 Dai y IEnjo parti taste cbdi,lo8hs5t82 dai y ienjo parti taste cbdi,True,non_alcohol,0.3498223117795161,True
+396,0425a.jpg,images/alcohol/0425a.jpg,alcohol,check port e ~jer  ouit Check,check port e ~jer ouit check,True,alcohol,0.7547666312254317,True
+220,0238a.jpg,images/alcohol/0238a.jpg,alcohol,1 miss +i on ited Don Tim skey whis edi brew,1 miss +i on ited don tim skey whis edi brew,True,alcohol,0.7626735252871477,True
+959,0440na.jpg,images/non_alcohol/0440na.jpg,non_alcohol,amooll milz Expenience = check,amooll milz expenience = check,True,non_alcohol,0.33187699882776844,True
+234,0252a.jpg,images/alcohol/0252a.jpg,alcohol,C: iGrunch  gob WINdow Dont miss now checke boubon,c: igrunch gob window dont miss now checke bourbon,True,alcohol,0.7878622693289277,True
+155,0167a.jpg,images/alcohol/0167a.jpg,alcohol,C,c,True,non_alcohol,0.41170629337749387,False
+53,0058a.jpg,images/alcohol/0058a.jpg,alcohol,Check lout specialbudweiser special,check lout specialbudweiser special,True,alcohol,0.7849505017555591,True
+304,0326a.jpg,images/alcohol/0326a.jpg,alcohol,ken nighilife;,ken nighilife;,True,alcohol,0.6587771616083093,True
+426,0464a.jpg,images/alcohol/0464a.jpg,alcohol,,,False,alcohol,0.5029206790082079,True
+1036,3027na.jpg,images/non_alcohol/3027na.jpg,non_alcohol,Looking ter Crelebration cannrabisrdjiscou nt,looking ter celebration cannrabisrdjiscou nt,True,non_alcohol,0.15036111391286067,True
+988,0469na.jpg,images/non_alcohol/0469na.jpg,non_alcohol,Tnemr Gpa 7R USA Itllhuilr GET READY FOR DISCOUNT PARTY HOT CHOCOLATE Pete Edgeler,tnemr gpa 7r usa itllhuilr get ready for discount party hot chocolate pete egeler,True,non_alcohol,0.2679631585220464,True
+887,0362na.jpg,images/non_alcohol/0362na.jpg,non_alcohol,Doeleeiiserberal dice,doeleeiiserberal dice,True,non_alcohol,0.43943713845272653,True
+813,0282na.jpg,images/non_alcohol/0282na.jpg,non_alcohol,m,m,True,alcohol,0.501763989539844,False
+603,0057na.jpg,images/non_alcohol/0057na.jpg,non_alcohol,'t Marissa Farra Photographye Don' miss flavel,'t marissa farra photography don' miss flavell,True,alcohol,0.5649685380666027,False
+1000,0482na.jpg,images/non_alcohol/0482na.jpg,non_alcohol,cbd p Iky,cbd p iky,True,non_alcohol,0.22274962212731234,True
+148,0160a.jpg,images/alcohol/0160a.jpg,alcohol,da he 50817 30717 gount Inera,da he 50817 30717 gount minera,True,non_alcohol,0.47999846584400446,False
+232,0250a.jpg,images/alcohol/0250a.jpg,alcohol,[Don't miss explore jack d4niels,[don't miss explore jack daniels,True,alcohol,0.8213216326942989,True
+968,0449na.jpg,images/non_alcohol/0449na.jpg,non_alcohol,Check out reserve party marijuana;,check out reserve party marijuana;,True,non_alcohol,0.28282057628299334,True
+252,0272a.jpg,images/alcohol/0272a.jpg,alcohol,4 miss Don wipe bak,4 miss don wipe bak,True,alcohol,0.7368470582564769,True
+894,0369na.jpg,images/non_alcohol/0369na.jpg,non_alcohol,Cet ready for taste cannabis special,cet ready for taste cannabis special,True,non_alcohol,0.3482894420242229,True
+511,3056a.jpg,images/alcohol/3056a.jpg,alcohol,J2t= Jovot,j2t= jovot,True,non_alcohol,0.45074680726569205,False
+590,0043na.jpg,images/non_alcohol/0043na.jpg,non_alcohol,6071 ookngc edition menudiscoun} coffcoC limited,6071 ookngc edition menudiscoun} coffcoc limited,True,non_alcohol,0.4273848685608773,True
+710,0173na.jpg,images/non_alcohol/0173na.jpg,non_alcohol,"3xplore ene eydrin "" TOYOTA BL09XC5d Try","explore ene eydrin "" toyota bl09xc5d try",True,non_alcohol,0.4243827039427176,True
+476,3018a.jpg,images/alcohol/3018a.jpg,alcohol,Dont mmiss bar meniy-budweiser taste,dont mmiss bar meniy-budweiser taste,True,alcohol,0.8219052497293462,True
+612,0066na.jpg,images/non_alcohol/0066na.jpg,non_alcohol,HUUAVN  pnUTAFIMNI HUUAMN Get ready for bar menu energy drink,huuavn pnutafimni huuamn get ready for bar menu energy drink,True,non_alcohol,0.24817424000882668,True
+995,0477na.jpg,images/non_alcohol/0477na.jpg,non_alcohol,cannabi5 check,cannabis check,True,non_alcohol,0.2679210979028625,True
+193,0206a.jpg,images/alcohol/0206a.jpg,alcohol,""". , remien",""". , remien",True,alcohol,0.5126207938861266,True
+786,0254na.jpg,images/non_alcohol/0254na.jpg,non_alcohol,Importedeneroy for ready imported Get drink,importedeneroy for ready imported get drink,True,non_alcohol,0.42634792330152993,True
+980,0461na.jpg,images/non_alcohol/0461na.jpg,non_alcohol,juice,juice,True,non_alcohol,0.143833596714035,True
+1005,0490na.jpg,images/non_alcohol/0490na.jpg,non_alcohol,Enjoy flarol ot chocolate,enjoy flarol ot chocolate,True,non_alcohol,0.0995596182251686,True
+806,0275na.jpg,images/non_alcohol/0275na.jpg,non_alcohol,Get reaDy for prEniunc cbac,get ready for preniunc cbac,True,alcohol,0.6240562229693573,False
+863,0337na.jpg,images/non_alcohol/0337na.jpg,non_alcohol,1744441 espfesso Gheck,1744441 espfesso gheck,True,non_alcohol,0.32510336409064494,True
+1011,0498na.jpg,images/non_alcohol/0498na.jpg,non_alcohol,Check out Offer menu water premium,check out offer menu water premium,True,non_alcohol,0.3979764409533302,True
+947,0427na.jpg,images/non_alcohol/0427na.jpg,non_alcohol,Gct rco ayfor cxplorc menu csorcssoi Importcd,gct rco ayfor cxplorc menu csorcssoi importcd,True,alcohol,0.5478489042577529,False
+330,0354a.jpg,images/alcohol/0354a.jpg,alcohol,chFECk Ibjerei 47 4a,check ibjerei 47 4a,True,alcohol,0.5846727107333414,True
+1054,3050na.jpg,images/non_alcohol/3050na.jpg,non_alcohol,(exBalteaBaf,(exbalteabaf,True,non_alcohol,0.44154198891082563,True
+373,0401a.jpg,images/alcohol/0401a.jpg,alcohol,flavor party lager 7ry,flavor party lager try,True,alcohol,0.7665372677136455,True
+454,0494a.jpg,images/alcohol/0494a.jpg,alcohol,Try ojjer chedk itequila ,try ojjer chedk tequila,True,alcohol,0.729796269300455,True
+655,0111na.jpg,images/non_alcohol/0111na.jpg,non_alcohol,NYNES {3t ready for ni ghtlife check 35 p ress,nynes {et ready for ni ghtlife check 35 p ress,True,alcohol,0.656587257337844,False
+1014,3001na.jpg,images/non_alcohol/3001na.jpg,non_alcohol,Hey Cupcakel @OFFee,hey cupcake @offee,True,non_alcohol,0.22337742255174153,True
+98,0107a.jpg,images/alcohol/0107a.jpg,alcohol,VODKA,vodka,True,alcohol,0.8251872860144577,True
+762,0227na.jpg,images/non_alcohol/0227na.jpg,non_alcohol,DoN't miss Off Er gr aB now cannabls S7c,don't miss off er gr ab now cannabls s7c,True,non_alcohol,0.4814577582347125,True
+464,3006a.jpg,images/alcohol/3006a.jpg,alcohol,budueiser,budueiser,True,alcohol,0.7462466904118628,True
+1053,3049na.jpg,images/non_alcohol/3049na.jpg,non_alcohol,Experence IImported Ideck cannobis,experience imported ideck cannobis,True,non_alcohol,0.19139131025314515,True
+419,0455a.jpg,images/alcohol/0455a.jpg,alcohol,Wii absolut' nightlife' ,wii absolut' nightlife',True,alcohol,0.776862157609047,True
+201,0216a.jpg,images/alcohol/0216a.jpg,alcohol,favor tequila specil = Try,favor tequila special = try,True,alcohol,0.71476326316417,True
+1048,3044na.jpg,images/non_alcohol/3044na.jpg,non_alcohol,HICH NOON OOr eon I1S1C Colj BEE? WSIC _ 'GoLd 2E87 lebokbewc jrydk HICH  Noov,hich noon oor eon i1s1c colj bee? wsic _ 'gold 2e87 lebokbewc jrydk hich noov,True,non_alcohol,0.4603650932346351,True
+564,0017na.jpg,images/non_alcohol/0017na.jpg,non_alcohol,Looking] ffor bar brew weed,looking] ffor bar brew weed,True,non_alcohol,0.09457619988681475,True
+711,0174na.jpg,images/non_alcohol/0174na.jpg,non_alcohol,Looking for grab nowheibal 7ea flavor,looking for grab nowheibal tea flavor,True,non_alcohol,0.15714926009227403,True
+61,0066a.jpg,images/alcohol/0066a.jpg,alcohol,0y Jom} celebrad readyfor smooth,oy jom} celebrad readyfor smooth,True,alcohol,0.6237044693792229,True
+90,0099a.jpg,images/alcohol/0099a.jpg,alcohol,reserve budweiser,reserve budweiser,True,alcohol,0.7225450857225793,True
+838,0310na.jpg,images/non_alcohol/0310na.jpg,non_alcohol,Enjoynenu Prem Ium mmilk,enjoynenu prem ium mmilk,True,non_alcohol,0.1541430348910895,True
+688,0148na.jpg,images/non_alcohol/0148na.jpg,non_alcohol,hot chocolate,hot chocolate,True,non_alcohol,0.12438243117334871,True
+1009,0495na.jpg,images/non_alcohol/0495na.jpg,non_alcohol,cbdl,cbdl,True,non_alcohol,0.3027519224342416,True
+648,0104na.jpg,images/non_alcohol/0104na.jpg,non_alcohol,Check out smooth Ilemonade meng,check out smooth lemonade meng,True,non_alcohol,0.3870029903176072,True
+963,0444na.jpg,images/non_alcohol/0444na.jpg,non_alcohol,ta Looking hot chocolate for chezl grob now Aass,ta looking hot chocolate for chezl grob now aass,True,non_alcohol,0.09912994080576334,True
+414,0449a.jpg,images/alcohol/0449a.jpg,alcohol,RONN SUEZ dbsolut,ronn suez dbsolut,True,alcohol,0.7174392225894122,True
+765,0232na.jpg,images/non_alcohol/0232na.jpg,non_alcohol,ko( bar special,ko( bar special,True,alcohol,0.5539066375721945,False
+810,0279na.jpg,images/non_alcohol/0279na.jpg,non_alcohol,espresso,espresso,True,non_alcohol,0.10204390036144612,True
+751,0216na.jpg,images/non_alcohol/0216na.jpg,non_alcohol,IGet for premium Imported cannabis ready,iget for premium imported cannabis ready,True,non_alcohol,0.340709251116727,True
+1052,3048na.jpg,images/non_alcohol/3048na.jpg,non_alcohol,hot Gmt] colate flavor,hot gmt] colate flavor,True,non_alcohol,0.19381565710976587,True
+757,0222na.jpg,images/non_alcohol/0222na.jpg,non_alcohol,experence[ pRemium  lmporteD e maiijuana,experience[ premium lmported e maiijuana,True,non_alcohol,0.16853017823086483,True
+993,0475na.jpg,images/non_alcohol/0475na.jpg,non_alcohol,Vewalt TEA,ewalt tea,True,non_alcohol,0.3593174439667148,True
+928,0407na.jpg,images/non_alcohol/0407na.jpg,non_alcohol,Fparkl water night life ing,fparkl water night life ing,True,non_alcohol,0.22151685337118526,True
+1060,3056na.jpg,images/non_alcohol/3056na.jpg,non_alcohol,weed limited edition Try p2i special party_,weed limited edition try p2i special party_,True,non_alcohol,0.4232167715634995,True
+69,0076a.jpg,images/alcohol/0076a.jpg,alcohol,"Cetreddy far now speciaL budweiser offer grob ,","cetreddy far now special budweiser offer grob ,",True,alcohol,0.737797712371129,True
+214,0232a.jpg,images/alcohol/0232a.jpg,alcohol,eventbudweiser_ menue event for ready Get =,eventbudweiser_ menue event for ready get =,True,alcohol,0.7477557254627802,True
+144,0156a.jpg,images/alcohol/0156a.jpg,alcohol,'t giu reserve miss Don,'t giu reserve miss don,True,alcohol,0.5966303178265512,True
+1016,3003na.jpg,images/non_alcohol/3003na.jpg,non_alcohol,Dont micz offer cparkling water flavor,dont micz offer cparkling water flavor,True,non_alcohol,0.19180509395908327,True
+0,0000a.jpg,images/alcohol/0000a.jpg,alcohol,Donlmisslimitededitionnighilifebourbonevent,donlmisslimitededitionnighilifebourbonevent,True,alcohol,0.6451794047400256,True
+338,0362a.jpg,images/alcohol/0362a.jpg,alcohol,[9126} nig,[9126} nig,True,non_alcohol,0.4724082132000439,False
+685,0145na.jpg,images/non_alcohol/0145na.jpg,non_alcohol,fon Sskor dioomos cuebeqa bblesoif,fon sskor dioomos cuebeqa bblesoif,True,non_alcohol,0.47564600835617676,True
+146,0158a.jpg,images/alcohol/0158a.jpg,alcohol,"Check out brew"" limited edition merlot_","check out brew"" limited edition merlot_",True,alcohol,0.7153948061395203,True
+611,0065na.jpg,images/non_alcohol/0065na.jpg,non_alcohol,ry reserve special juice,ry reserve special juice,True,non_alcohol,0.2473454721520782,True
+491,3036a.jpg,images/alcohol/3036a.jpg,alcohol,"CLEANand DRY_ EMERCENCY SERVICES "" Yout |esnid & - (513): -2337 Geh € 4dy tor premium' guinness Suilu"" 226-_","cleanand dry_ emercency services "" yout |esnid & - (513): -2337 geh € ady tor premium' guinness suilu"" 226-_",True,alcohol,0.6759967106681142,True
+900,0376na.jpg,images/non_alcohol/0376na.jpg,non_alcohol,jjuice,juice,True,non_alcohol,0.143833596714035,True
+601,0055na.jpg,images/non_alcohol/0055na.jpg,non_alcohol,"uotoon coffee r~Ru 0,X rreserve","uotoon coffee r~ru 0,x reserve",True,non_alcohol,0.19383811873601528,True
+1070,3067na.jpg,images/non_alcohol/3067na.jpg,non_alcohol,Try party celebration cbd discount,try party celebration cbd discount,True,non_alcohol,0.3507670160308428,True
+272,0292a.jpg,images/alcohol/0292a.jpg,alcohol,Jolinile Walker,jolinile walker,True,alcohol,0.7026659219473615,True
+764,0230na.jpg,images/non_alcohol/0230na.jpg,non_alcohol,Sleb bategmi Voln],sleb bategmi voln],True,alcohol,0.5058168979938947,False
+535,3085a.jpg,images/alcohol/3085a.jpg,alcohol,'4ldnazie,'4ldnazie,True,alcohol,0.5443003579095366,True
+1094,3094na.jpg,images/non_alcohol/3094na.jpg,non_alcohol,coffel,coffel,True,non_alcohol,0.29058057515144015,True
+853,0326na.jpg,images/non_alcohol/0326na.jpg,non_alcohol,tea out Check iced offer,tea out check iced offer,True,non_alcohol,0.3824021320301784,True
+468,3010a.jpg,images/alcohol/3010a.jpg,alcohol,Don't miss Taste smooth beer,don't miss taste smooth beer,True,alcohol,0.8337494687895733,True
+274,0294a.jpg,images/alcohol/0294a.jpg,alcohol,SHLRIAIS daniebsatend,shlriais daniebsatend,True,alcohol,0.5406433772523391,True
+865,0339na.jpg,images/non_alcohol/0339na.jpg,non_alcohol,Check cannabis menu out,check cannabis menu out,True,non_alcohol,0.35570539371307247,True
+36,0039a.jpg,images/alcohol/0039a.jpg,alcohol,Toshiki Matsuya Nike Junidr Tour vsta Natidnal Masters Fanio Oetmonim Aare _ Try ev en tport,toshiki matsu-ya nike junidr tour vsta natidnal masters fanio oetmonim aare _ try ev en tport,True,non_alcohol,0.4364388793749797,False
+400,0431a.jpg,images/alcohol/0431a.jpg,alcohol,wine,wine,True,alcohol,0.8878490964798731,True
+1040,3035na.jpg,images/non_alcohol/3035na.jpg,non_alcohol,grab now milkshake,grab now milkshake,True,non_alcohol,0.20259070731169182,True
+780,0248na.jpg,images/non_alcohol/0248na.jpg,non_alcohol,WWIV THEBIGBALML Baly herbal tea,wwiv thebigbalml baly herbal tea,True,non_alcohol,0.23767401500660393,True
+181,0194a.jpg,images/alcohol/0194a.jpg,alcohol,KGY K Drew imported brand? ?elebratign 95E1/95 MEURE,kgy k drew imported brand? ?elebratign 95e1/95 meurer,True,alcohol,0.6460217659891573,True
+716,0180na.jpg,images/non_alcohol/0180na.jpg,non_alcohol,MilkShake offer out = CheCk,milkshake offer out = check,True,non_alcohol,0.3240783305569751,True
+347,0371a.jpg,images/alcohol/0371a.jpg,alcohol,"57T ,","57t ,",True,alcohol,0.5251269245466248,True
+121,0132a.jpg,images/alcohol/0132a.jpg,alcohol,Crt Cn,crt cn,True,non_alcohol,0.49348026780177945,False
+967,0448na.jpg,images/non_alcohol/0448na.jpg,non_alcohol,"9r ""~teher , #eat","9r ""~tether , #eat",True,non_alcohol,0.4880461855102203,True
+7,0008a.jpg,images/alcohol/0008a.jpg,alcohol,ont miss taste specal event port,ont miss taste special event port,True,alcohol,0.6619097771455577,True
+680,0139na.jpg,images/non_alcohol/0139na.jpg,non_alcohol,GET READY FOR SPECIAL WATER,get ready for special water,True,non_alcohol,0.3955659401509948,True
+329,0353a.jpg,images/alcohol/0353a.jpg,alcohol,try puemlum evEnt whiskey,try puemlum event whiskey,True,alcohol,0.7855892861268604,True
+167,0179a.jpg,images/alcohol/0179a.jpg,alcohol,vodka,vodka,True,alcohol,0.8251872860144577,True
+372,0399a.jpg,images/alcohol/0399a.jpg,alcohol,wine,wine,True,alcohol,0.8878490964798731,True
+817,0286na.jpg,images/non_alcohol/0286na.jpg,non_alcohol,Enjoy nightlifediscount mtcha nightlife,enjoy nightlifediscount matcha nightlife,True,non_alcohol,0.20661819687604335,True
+440,0480a.jpg,images/alcohol/0480a.jpg,alcohol,gin,gin,True,alcohol,0.783255862351143,True
+264,0284a.jpg,images/alcohol/0284a.jpg,alcohol,5 Don't MiSS Giiul-fesenvOnum discount_,5 don't miss giiul-fesenvonum discount_,True,alcohol,0.556725306440416,True
+278,0299a.jpg,images/alcohol/0299a.jpg,alcohol,abolkedisccun,abolkedisccun,True,alcohol,0.5471226284074897,True
+190,0203a.jpg,images/alcohol/0203a.jpg,alcohol,Trye Umited party edition merlot premium,trye umited party edition merlot premium,True,alcohol,0.6271388967381698,True
+147,0159a.jpg,images/alcohol/0159a.jpg,alcohol,Tonperty pontmbs ern Menm,tonperty pontmbs ern menm,True,alcohol,0.5199411367873855,True
+937,0417na.jpg,images/non_alcohol/0417na.jpg,non_alcohol,91 30 0 Brett Lexn Photeyroly herbal L tea,91 30 0 brett lexn photeyroly herbal l tea,True,non_alcohol,0.2313693973520999,True
+577,0030na.jpg,images/non_alcohol/0030na.jpg,non_alcohol,premium milk smooth for ready Get =,premium milk smooth for ready get =,True,non_alcohol,0.4768374822774281,True
+543,3093a.jpg,images/alcohol/3093a.jpg,alcohol,C Try Heck smoo Port Th R3senve,c try heck smoo port th r3senve,True,alcohol,0.7098666028946846,True
+258,0278a.jpg,images/alcohol/0278a.jpg,alcohol,dufad n,dufad n,True,alcohol,0.5111880441321303,True
+291,0312a.jpg,images/alcohol/0312a.jpg,alcohol,"ICheck out imported menu tequila Id"" ttonb, 123 5279","check out imported menu tequila id"" ttonb, 123 5279",True,alcohol,0.7168172648646689,True
+125,0136a.jpg,images/alcohol/0136a.jpg,alcohol,smioft,smioft,True,alcohol,0.6471937813710898,True
+591,0044na.jpg,images/non_alcohol/0044na.jpg,non_alcohol,Try special herbal tea check,try special herbal tea check,True,non_alcohol,0.3896184519941734,True
+159,0171a.jpg,images/alcohol/0171a.jpg,alcohol,Check out party now smirnoff grab,check out party now smirnoff grab,True,alcohol,0.7840384182282444,True
+11,0012a.jpg,images/alcohol/0012a.jpg,alcohol,MMPORTED RUM,mmported rum,True,alcohol,0.6532902772118722,True
+621,0076na.jpg,images/non_alcohol/0076na.jpg,non_alcohol,Exparcece paty carnan8|,exparcece paty carnan8|,True,non_alcohol,0.45262427719030224,True
+766,0233na.jpg,images/non_alcohol/0233na.jpg,non_alcohol,milkshake,milkshake,True,non_alcohol,0.17029849453840035,True
+876,0350na.jpg,images/non_alcohol/0350na.jpg,non_alcohol,coffee,coffee,True,non_alcohol,0.16574479612253176,True
+24,0026a.jpg,images/alcohol/0026a.jpg,alcohol,,,False,alcohol,0.5029206790082079,True
+202,0217a.jpg,images/alcohol/0217a.jpg,alcohol,ntie exiivodka Tre,ntie exiivodka tre,True,alcohol,0.7231849795383121,True
+956,0437na.jpg,images/non_alcohol/0437na.jpg,non_alcohol,marijuana bar,marijuana bar,True,non_alcohol,0.16460380295815671,True
+895,0370na.jpg,images/non_alcohol/0370na.jpg,non_alcohol,OAus JGet ready for sp3ci4lhot chocolate brew,oaus jget ready for sp3ci4lhot chocolate brew,True,non_alcohol,0.2432386639242408,True
+383,0412a.jpg,images/alcohol/0412a.jpg,alcohol,Try brew Jeleier taste artois stella,try brew jeleier taste artois stella,True,alcohol,0.7671508546982537,True
+1037,3028na.jpg,images/non_alcohol/3028na.jpg,non_alcohol,FRI ZFD ItALiac LONIONS= CHcKD SAC GRILLED E STEKKINA CAJEN SATSAGE ChESE POLsa Ohions ISTEAK 1eA6 ESH Dodo LEMONADEI miss tese oothe cbdi,fri zfd italiac onions= chckd sac grilled e stekkina cajen satsage chese polsa ohioans steak 1ea6 esh dodo lemonade miss tese oothe cbdi,True,non_alcohol,0.36313610418064984,True
+776,0243na.jpg,images/non_alcohol/0243na.jpg,non_alcohol,dentneopytwfk,dentneopytwfk,True,non_alcohol,0.4710066137082187,True
+368,0395a.jpg,images/alcohol/0395a.jpg,alcohol,cochtAil,cochtail,True,alcohol,0.6225981408971151,True
+582,0035na.jpg,images/non_alcohol/0035na.jpg,non_alcohol,367e 577,367e 577,True,alcohol,0.5244119750741266,False
+79,0087a.jpg,images/alcohol/0087a.jpg,alcohol,Don't Teeltai 26 miss evei # 8 8,don't teeltai 26 miss evei # 8 8,True,alcohol,0.5876456685766926,True
+132,0144a.jpg,images/alcohol/0144a.jpg,alcohol,Get ready fo r celebration eve nt gin ch eck,get ready fo r celebration eve nt gin ch eck,True,alcohol,0.6493001903374241,True
+845,0318na.jpg,images/non_alcohol/0318na.jpg,non_alcohol,NottcR Jetaenu le moda  6825 Fate,nottcr jetaenu le moda 6825 fate,True,non_alcohol,0.35565277861368705,True
+916,0395na.jpg,images/non_alcohol/0395na.jpg,non_alcohol,MSd JITRIBTUA et noitibobotimi tuo1o9) Vetons Inne,msd jitribtua et noitibobotimi tuo1o9) vetos inne,True,alcohol,0.6076656515589156,False
+1041,3036na.jpg,images/non_alcohol/3036na.jpg,non_alcohol,matcha,matcha,True,non_alcohol,0.11913535336214506,True
+531,3080a.jpg,images/alcohol/3080a.jpg,alcohol,Donlt miss laver guinness 08/2512007 11.34 am,donlt miss laver guinness 08/2512007 11.34 am,True,alcohol,0.820926948145434,True
+540,3090a.jpg,images/alcohol/3090a.jpg,alcohol,Get ready for= explore bourbon,get ready for= explore bourbon,True,alcohol,0.7230276402439775,True
+584,0037na.jpg,images/non_alcohol/0037na.jpg,non_alcohol,milk,milk,True,non_alcohol,0.12653793904240804,True
+451,0491a.jpg,images/alcohol/0491a.jpg,alcohol,ICheck out offer heineken],check out offer heineken],True,alcohol,0.8328278786864896,True
+880,0355na.jpg,images/non_alcohol/0355na.jpg,non_alcohol,Alan #opkins [SOKNGF,alan #hopkins [sokngf,True,non_alcohol,0.48186119190154025,True
+999,0481na.jpg,images/non_alcohol/0481na.jpg,non_alcohol,"Dont teae miss: reservel herbal"" event  smooth","dont teae miss: reserve herbal"" event smooth",True,non_alcohol,0.40634625447212963,True
+814,0283na.jpg,images/non_alcohol/0283na.jpg,non_alcohol,"water ""Cr'","water ""cr'",True,non_alcohol,0.11761128761740379,True
+652,0108na.jpg,images/non_alcohol/0108na.jpg,non_alcohol,Don't dhechflavarnotchoco,don't dhechflavarnotchoco,True,non_alcohol,0.4509719464104888,True
+462,3003a.jpg,images/alcohol/3003a.jpg,alcohol,FNOIMe,fnoime,True,alcohol,0.5429803379003579,True
+357,0383a.jpg,images/alcohol/0383a.jpg,alcohol,gn menu party out Check,gn menu party out check,True,alcohol,0.6799594992211596,True
+755,0220na.jpg,images/non_alcohol/0220na.jpg,non_alcohol,Enjoy limited edition dIScount icEd tea,enjoy limited edition discount iced tea,True,non_alcohol,0.17374043086540375,True
+1055,3051na.jpg,images/non_alcohol/3051na.jpg,non_alcohol,ExPErtence reservE navorespressobaR,experience reserve navorespressobar,True,non_alcohol,0.09426093616173957,True
+706,0168na.jpg,images/non_alcohol/0168na.jpg,non_alcohol,hot cho colat3,hot cho colat3,True,non_alcohol,0.2097943077644475,True
+1098,3098na.jpg,images/non_alcohol/3098na.jpg,non_alcohol,7+ now grab tea herbal  T+A,7+ now grab tea herbal t+a,True,non_alcohol,0.20609602305272737,True
+518,3063a.jpg,images/alcohol/3063a.jpg,alcohol,InerLo: high7 11fe  discount Miss DOntt,inerlo: hight 11fe discount miss dontt,True,alcohol,0.5924470986416918,True
+508,3053a.jpg,images/alcohol/3053a.jpg,alcohol,hampazn,hampazn,True,alcohol,0.6284423190884381,True
+793,0261na.jpg,images/non_alcohol/0261na.jpg,non_alcohol,smOoth party Experience milkShake,smooth party experience milkshake,True,non_alcohol,0.16223206364739196,True
+135,0147a.jpg,images/alcohol/0147a.jpg,alcohol,Try now johnnie walker grab,try now johnnie walker grab,True,alcohol,0.8223059165609596,True
+433,0471a.jpg,images/alcohol/0471a.jpg,alcohol,Srve Keciue Speci LUNgeR,srve keciue speci lunger,True,alcohol,0.556578159657327,True
+951,0431na.jpg,images/non_alcohol/0431na.jpg,non_alcohol,Try mit ed editia colate grabnowll prer jlfty},try mit ed editia colate grabnowll prer jlfty},True,non_alcohol,0.38919612073222926,True
+801,0269na.jpg,images/non_alcohol/0269na.jpg,non_alcohol,er ve Enj oy ! res imported energy drink,er ve enj oy ! res imported energy drink,True,non_alcohol,0.11950080953527051,True
+140,0152a.jpg,images/alcohol/0152a.jpg,alcohol,Lne,lne,True,alcohol,0.6322489164655196,True
+602,0056na.jpg,images/non_alcohol/0056na.jpg,non_alcohol,kcbd offer,kcbd offer,True,non_alcohol,0.36343768838153245,True
+163,0175a.jpg,images/alcohol/0175a.jpg,alcohol,Den204ve,den204ve,True,non_alcohol,0.4950344526223382,False
+728,0192na.jpg,images/non_alcohol/0192na.jpg,non_alcohol,3omla,3omla,True,alcohol,0.5828592249451894,False
+985,0466na.jpg,images/non_alcohol/0466na.jpg,non_alcohol,Janive 9LOTTO9T Jakaa,janie 9lotto9t jakaa,True,alcohol,0.6055425415260017,False
+28,0030a.jpg,images/alcohol/0030a.jpg,alcohol,Get ready for event party jack daniels,get ready for event party jack daniels,True,alcohol,0.8226919388981482,True
+219,0237a.jpg,images/alcohol/0237a.jpg,alcohol,Ttdste_ powsmiuoffba gdb,ttdste_ powsmiuoffba gdb,True,alcohol,0.5977554725149291,True
+820,0290na.jpg,images/non_alcohol/0290na.jpg,non_alcohol,"Epy"" Ostersund Badhusparkon espresso speckl e expble :","epy"" ostersund badhusparkon espresso speckle e expble :",True,non_alcohol,0.1825953709840011,True
+176,0189a.jpg,images/alcohol/0189a.jpg,alcohol,edition limited budweiser,edition limited budweiser,True,alcohol,0.786622940044578,True
+763,0229na.jpg,images/non_alcohol/0229na.jpg,non_alcohol,lemonad3 flavor premium Out ChEck,lemonade flavor premium out check,True,non_alcohol,0.2893074893296094,True
+741,0206na.jpg,images/non_alcohol/0206na.jpg,non_alcohol,Offer Enjoy drnk energy,offer enjoy drnk energy,True,non_alcohol,0.12361927165635218,True
+222,0240a.jpg,images/alcohol/0240a.jpg,alcohol,Check out limited edition event smirnoff bar,check out limited edition event smirnoff bar,True,alcohol,0.77469832097683,True
+1034,3025na.jpg,images/non_alcohol/3025na.jpg,non_alcohol,Enj y imported 1 menu = espresso,enj y imported 1 menu = espresso,True,non_alcohol,0.17582640962524565,True
+1097,3097na.jpg,images/non_alcohol/3097na.jpg,non_alcohol,matcha TO LET [Leamington 180 L4MM,matcha to let [flemington 180 lamm,True,non_alcohol,0.20118092463419476,True
+489,3033a.jpg,images/alcohol/3033a.jpg,alcohol,Don't miss discount champagne explore A erdgas gcrio,don't miss discount champagne explore a erdgas gcrio,True,alcohol,0.6889714418780577,True
+38,0041a.jpg,images/alcohol/0041a.jpg,alcohol,JJONNNIE WRLKCR   KE NOW,jjonnnie wrlkcr ke now,True,alcohol,0.5873340617393465,True
+977,0458na.jpg,images/non_alcohol/0458na.jpg,non_alcohol,mksharaeploro,mksharaeploro,True,non_alcohol,0.4683360914466367,True
+750,0215na.jpg,images/non_alcohol/0215na.jpg,non_alcohol,W eed brew,w eed brew,True,non_alcohol,0.3229974721332575,True
+95,0104a.jpg,images/alcohol/0104a.jpg,alcohol,You lager Love,you lager love,True,alcohol,0.7813178388819074,True
+771,0238na.jpg,images/non_alcohol/0238na.jpg,non_alcohol,,,False,alcohol,0.5029206790082079,False
+997,0479na.jpg,images/non_alcohol/0479na.jpg,non_alcohol,mik taste,mik taste,True,alcohol,0.5214387698474807,False
+819,0288na.jpg,images/non_alcohol/0288na.jpg,non_alcohol,hot chocolate WAW pnotherlunch com 0o,hot chocolate waw pnotherlunch com 0o,True,non_alcohol,0.12480115828567007,True
+166,0178a.jpg,images/alcohol/0178a.jpg,alcohol,port nygntlife,port nygntlife,True,alcohol,0.7097163200996502,True
+939,0419na.jpg,images/non_alcohol/0419na.jpg,non_alcohol,SparKling water taste Depy Steyi,sparkling water taste depy steyi,True,non_alcohol,0.148650691013291,True
+901,0377na.jpg,images/non_alcohol/0377na.jpg,non_alcohol,Looling FOI llo emiUm aCed 9_,looling foi llo emium aced 9_,True,non_alcohol,0.27269455478092386,True
+145,0157a.jpg,images/alcohol/0157a.jpg,alcohol,Check out celebration disco U nt stella arto is brew,check out celebration disco u nt stella arto is brew,True,alcohol,0.6450110943659687,True
+316,0339a.jpg,images/alcohol/0339a.jpg,alcohol,Jrnoff,jrnoff,True,alcohol,0.6658109826816623,True
+1029,3019na.jpg,images/non_alcohol/3019na.jpg,non_alcohol,Ocnow,ocnow,True,non_alcohol,0.4831816808589995,True
+877,0351na.jpg,images/non_alcohol/0351na.jpg,non_alcohol,fno 991},fno 991},True,alcohol,0.52968001600895,False
+908,0384na.jpg,images/non_alcohol/0384na.jpg,non_alcohol,ijiul,ijiul,True,non_alcohol,0.438646135859083,True
+345,0369a.jpg,images/alcohol/0369a.jpg,alcohol,"Don' bar brew Sutile""","don' bar brew stile""",True,alcohol,0.57736694610031,True
+1085,3085na.jpg,images/non_alcohol/3085na.jpg,non_alcohol,38 Experience exPloRe brew herbaL tea FIRE 1,38 experience explore brew herbal tea fire 1,True,non_alcohol,0.12094997045392686,True
+169,0181a.jpg,images/alcohol/0181a.jpg,alcohol,chLRdonnay imported ouT Check ',chardonnay imported out check ',True,alcohol,0.8580327197184873,True
+638,0093na.jpg,images/non_alcohol/0093na.jpg,non_alcohol,now flavorlemonade event Getready for= grab),now flavorlemonade event getready for= grab),True,non_alcohol,0.27141333408776613,True
+251,0271a.jpg,images/alcohol/0271a.jpg,alcohol,Check out bar cocktail nightlife 0y Jom},check out bar cocktail nightlife oy jom},True,alcohol,0.7859547462957193,True
+142,0154a.jpg,images/alcohol/0154a.jpg,alcohol,GET READHE WvhISKEY BRE,get reade whiskey bre,True,alcohol,0.7874549123610829,True
+532,3082a.jpg,images/alcohol/3082a.jpg,alcohol,guinness,guinness,True,alcohol,0.8247832761230552,True
+108,0118a.jpg,images/alcohol/0118a.jpg,alcohol,equila premium Dont miss celebration,tequila premium dont miss celebration,True,alcohol,0.6729784440732511,True
+4,0005a.jpg,images/alcohol/0005a.jpg,alcohol,Douftmisslimited editionlited editiom port imported,douftmisslimited editionlited editiom port imported,True,alcohol,0.6204864269214416,True
+929,0408na.jpg,images/non_alcohol/0408na.jpg,non_alcohol,espresso check,espresso check,True,non_alcohol,0.1757206487937863,True
+453,0493a.jpg,images/alcohol/0493a.jpg,alcohol,2 2 Don em 5s grab_ noil tesenv9 check smirnoff,2 2 don em ss grab_ noil tesenv9 check smirnoff,True,alcohol,0.7563968501018986,True
+1080,3079na.jpg,images/non_alcohol/3079na.jpg,non_alcohol,hot chocolate event,hot chocolate event,True,non_alcohol,0.1380756246862036,True
+300,0321a.jpg,images/alcohol/0321a.jpg,alcohol,Get ready for check heineken brew,get ready for check heineken brew,True,alcohol,0.8639941150322314,True
+969,0450na.jpg,images/non_alcohol/0450na.jpg,non_alcohol,ezabea nowi [rab,ezabea nowi [rab,True,non_alcohol,0.46428181585240874,True
+859,0333na.jpg,images/non_alcohol/0333na.jpg,non_alcohol,"epecta water ""sparkling ","epecta water ""sparkling",True,non_alcohol,0.1098579660976193,True
+223,0241a.jpg,images/alcohol/0241a.jpg,alcohol,lager,lager,True,alcohol,0.8279985912916387,True
+712,0175na.jpg,images/non_alcohol/0175na.jpg,non_alcohol,australian open Ceru KIA G4aner GeMonc) juce,australian open ceru kia g4aner gemonc) juce,True,non_alcohol,0.452213948252862,True
+649,0105na.jpg,images/non_alcohol/0105na.jpg,non_alcohol,bejifni-cboz JoV6I} noijibs VAT,bejifni-cboz jov6i} noijibs vat,True,alcohol,0.561510736565775,False
+804,0272na.jpg,images/non_alcohol/0272na.jpg,non_alcohol,Experience taste importedcbd,experience taste importedcbd,True,non_alcohol,0.2031169491088366,True
+386,0415a.jpg,images/alcohol/0415a.jpg,alcohol,[Check out explore stella artois nightlfe,[check out explore stella artois nightlife,True,alcohol,0.7864423300297522,True
+645,0100na.jpg,images/non_alcohol/0100na.jpg,non_alcohol,FosttuCor GOSTona Ghe Donbmi_ spesie{tlavorsoda,fosttucor gostona ghe donbmi_ spesie{tlavorsoda,True,non_alcohol,0.32958000003360255,True
+185,0198a.jpg,images/alcohol/0198a.jpg,alcohol,"grab n"" Amenu 8tella ari7e8 (uedo Try","grab n"" amenu bella ari7e8 (uedo try",True,alcohol,0.7039057851003705,True
+1065,3061na.jpg,images/non_alcohol/3061na.jpg,non_alcohol,eoiutqoflilba Bojtil' Jvo: 59103,eoiutqoflilba bojtil' jvo: 59103,True,alcohol,0.5451672195077796,False
+671,0130na.jpg,images/non_alcohol/0130na.jpg,non_alcohol,Don't miss menu bor energy drink,don't miss menu bor energy drink,True,non_alcohol,0.24307025736968205,True
+416,0452a.jpg,images/alcohol/0452a.jpg,alcohol,2f4o] nig 29161 403,2f4o] nig 29161 403,True,alcohol,0.5066536016858041,True

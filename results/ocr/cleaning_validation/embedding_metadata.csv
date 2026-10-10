@@ -1,6 +1,0 @@
-embedding_row,file_name,image_path,label,extracted_text,cleaned_text,has_text
-0,a,images/a,alcohol,"  DON’T	BUDW3ISER, budw3iser
- 2024 500 0.0% ","don't budweiser, budweiser 2024 500 0.0%",True
-1,b,images/b,alcohol,water,water,True
-2,c,images/c,alcohol,,,False
-3,d,images/d,alcohol,,,False

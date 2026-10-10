@@ -1,3 +1,0 @@
-outcome,images,images_with_ocr_confidence,mean_ocr_confidence,median_ocr_confidence,mean_classifier_confidence,median_classifier_confidence
-Correct,278,277,0.5695264719616978,0.5794176770123354,0.685695060647521,0.6959538837712894
-Incorrect,52,47,0.2586208833302558,0.1520102312057943,0.5367133378812472,0.5284054977247403
