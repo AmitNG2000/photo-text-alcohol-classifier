@@ -1,3 +1,0 @@
-label,image_count,images_with_text,mean_word_count,mean_confidence,mean_english_word_ratio,flip_attempts,images_without_text,text_coverage_percent
-alcohol,550,537,4.4381818181818184,0.5738139156962182,0.5342319952774498,458,13,97.63636363636363
-non_alcohol,550,541,4.618181818181818,0.5685136520791484,0.48840039084633363,477,9,98.36363636363636
